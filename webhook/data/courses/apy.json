@@ -1,0 +1,88 @@
+{
+  "id": "COURSE-APY-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Atal Pension Yojana (APY) Enrollment Specialist",
+    "short_desc": "Become an expert in helping citizens secure their future with the APY government pension scheme.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module provides comprehensive training on the Atal Pension Yojana (APY), a government-backed pension scheme for the unorganized sector. Agents will learn the contribution structure, enrollment process, and how to explain long-term pension benefits to citizens.</p><ol><li><strong>Scheme Structure:</strong><br>Understand the age-based monthly contribution charts and the corresponding fixed pension amounts (₹1000 to ₹5000).</li><li><strong>Enrollment Process:</strong><br>Master the steps to enroll a citizen through a bank or post office, including setting up auto-debit facilities.</li><li><strong>Benefits Communication:</strong><br>Learn effective techniques to communicate the value of old-age income security and government co-contributions.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower citizens in the unorganized sector to build a secure, post-retirement life.</li><li>Specialize in a high-impact social security scheme.</li><li>Strengthen your role as a comprehensive financial advisor for your community.</li></ul>",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Atal_Pension_Yojana_logo.png"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://haqdarshak.com/schemes/apy-training-preview"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Haqdarshak Social Security Division",
+      "short_desc": "Dedicated to training agents on pension, insurance, and long-term security schemes.",
+      "long_desc": "The Social Security Division focuses on creating a safety net for every Indian by empowering our agents with deep knowledge of government pension and insurance products.",
+      "images": [
+        {
+          "url": "https://haqdarshak.com/wp-content/uploads/2021/08/Haqdarshak-Logo-1.png"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["GOV-SCHEMES-FINANCE", "GOV-SCHEMES-LIVELIHOOD"],
+  "rating": "4.7",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Pension Scheme"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Unorganized sector workers, individuals without formal pension plans"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi, en, bn, ta"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P4H"
+        }
+      ],
+      "display": true
+    }
+  ]
+}
