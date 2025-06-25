@@ -1,0 +1,40 @@
+{
+  "id": "COURSE-MGNREGA-001",
+  "quantity": { "maximum": { "count": 1 } },
+  "descriptor": {
+    "name": "MGNREGA Job Card Facilitator",
+    "short_desc": "Learn to assist rural households in obtaining Job Cards and demanding work under MGNREGA.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This course covers the operational guidelines of MGNREGA. Agents will learn the process of Job Card registration, how to file a demand for work, understand the rights of workers including timely wage payments, and the role of the Gram Panchayat.</p>",
+    "images": [{ "url": "https://i.ibb.co/L5rK5gP/mgnrega-logo.png" }]
+  },
+  "creator": {
+    "descriptor": { "name": "Haqdarshak Livelihood Division" }
+  },
+  "price": { "currency": "INR", "value": "0" },
+  "category_ids": ["GOV-SCHEMES-LIVELIHOOD"],
+  "rating": "4.9",
+  "rateable": true,
+  "keywords": [
+    "mgnrega",
+    "nrega",
+    "job card",
+    "mazdoori",
+    "rural employment",
+    "100 days work",
+    "gram panchayat"
+  ],
+  "tags": [
+    {
+      "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+      "list": [
+        { "descriptor": { "code": "learner-level" }, "value": "Intermediate" },
+        { "descriptor": { "code": "scheme-type" }, "value": "Wage Employment" },
+        {
+          "descriptor": { "code": "target-audience" },
+          "value": "Adult members of rural households"
+        },
+        { "descriptor": { "code": "course-duration" }, "value": "P6H" }
+      ]
+    }
+  ]
+}

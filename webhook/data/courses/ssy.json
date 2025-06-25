@@ -1,0 +1,39 @@
+{
+  "id": "COURSE-SSY-001",
+  "quantity": { "maximum": { "count": 1 } },
+  "descriptor": {
+    "name": "Sukanya Samriddhi Yojana (SSY) Advisor",
+    "short_desc": "Train to guide parents in opening and managing an SSY account for a girl child's future.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module focuses on the Sukanya Samriddhi Yojana, a small savings scheme for the girl child. Agents will learn about account opening rules, deposit limits, maturity and withdrawal conditions, and the tax benefits associated with the scheme.</p>",
+    "images": [{ "url": "https://i.ibb.co/dK83C7T/ssy-logo.png" }]
+  },
+  "creator": {
+    "descriptor": { "name": "Haqdarshak Women & Child Dev Division" }
+  },
+  "price": { "currency": "INR", "value": "0" },
+  "category_ids": ["GOV-SCHEMES-FINANCE", "GOV-SCHEMES-WOMEN-CHILD"],
+  "rating": "4.9",
+  "rateable": true,
+  "keywords": [
+    "ssy",
+    "sukanya samriddhi",
+    "girl child",
+    "beti bachao",
+    "post office scheme",
+    "savings"
+  ],
+  "tags": [
+    {
+      "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+      "list": [
+        { "descriptor": { "code": "learner-level" }, "value": "Beginner" },
+        { "descriptor": { "code": "scheme-type" }, "value": "Savings Scheme" },
+        {
+          "descriptor": { "code": "target-audience" },
+          "value": "Parents or legal guardians of a girl child below 10 years"
+        },
+        { "descriptor": { "code": "course-duration" }, "value": "P3H" }
+      ]
+    }
+  ]
+}

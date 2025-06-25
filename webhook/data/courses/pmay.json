@@ -1,0 +1,45 @@
+{
+  "id": "COURSE-PMAY-001",
+  "quantity": { "maximum": { "count": 1 } },
+  "descriptor": {
+    "name": "PMAY (Urban & Gramin) Application Guide",
+    "short_desc": "Enable agents to help citizens apply for affordable housing under PMAY-U and PMAY-G.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This course details the Pradhan Mantri Awas Yojana for both Urban (U) and Gramin (G) areas. Agents will master the eligibility criteria based on income groups (EWS, LIG), the application process through Common Service Centers (CSCs), and the subsidy calculation under the Credit Linked Subsidy Scheme (CLSS).</p>",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/en/2/2a/Pradhan_Mantri_Awas_Yojana_logo.png"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": { "name": "Haqdarshak Housing & Urban Dev Wing" }
+  },
+  "price": { "currency": "INR", "value": "0" },
+  "category_ids": ["GOV-SCHEMES-HOUSING"],
+  "rating": "4.8",
+  "rateable": true,
+  "keywords": [
+    "pmay",
+    "awas yojana",
+    "housing for all",
+    "ghar",
+    "makan",
+    "clss",
+    "affordable housing",
+    "home loan"
+  ],
+  "tags": [
+    {
+      "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+      "list": [
+        { "descriptor": { "code": "learner-level" }, "value": "Intermediate" },
+        { "descriptor": { "code": "scheme-type" }, "value": "Housing Subsidy" },
+        {
+          "descriptor": { "code": "target-audience" },
+          "value": "Economically Weaker Section (EWS), Low Income Group (LIG)"
+        },
+        { "descriptor": { "code": "course-duration" }, "value": "P7H" }
+      ]
+    }
+  ]
+}
