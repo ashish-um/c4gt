@@ -12,7 +12,6 @@ services:
     networks:
       - local-beckn-net
 
-  # The Elasticsearch Service
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.14.0
     container_name: elasticsearch_local
@@ -20,7 +19,7 @@ services:
       - discovery.type=single-node
       - xpack.security.enabled=false
     ports:
-      - "9200:9200" # Expose Elasticsearch on your local port 9200
+      - "9200:9200"
     networks:
       - local-beckn-net
 
