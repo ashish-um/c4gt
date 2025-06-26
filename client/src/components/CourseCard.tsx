@@ -1,12 +1,49 @@
 import React from "react";
 
 export interface Course {
-  id: number;
-  title: string;
-  description: string;
-  price: string;
-  image: string;
-  progress: number;
+  id: string;
+  quantity?: {
+    maximum?: {
+      count?: number;
+    };
+  };
+  descriptor: {
+    name: string;
+    short_desc?: string;
+    long_desc?: string;
+    images?: { url: string }[];
+    media?: { url: string }[];
+  };
+  creator?: {
+    descriptor: {
+      name: string;
+      short_desc?: string;
+      long_desc?: string;
+      images?: { url: string }[];
+    };
+  };
+  price?: {
+    currency: string;
+    value: string;
+  };
+  category_ids?: string[];
+  rating?: string;
+  keywords?: string[];
+  rateable?: boolean;
+  tags?: Array<{
+    descriptor: {
+      code: string;
+      name: string;
+    };
+    list: Array<{
+      descriptor: {
+        code: string;
+        name?: string;
+      };
+      value: string;
+    }>;
+    display?: boolean;
+  }>;
 }
 
 interface CourseCardProps {
@@ -18,8 +55,8 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => (
     <div className="relative">
       <img
         className="w-full h-40 object-cover"
-        src={course.image}
-        alt={course.title}
+        src={course.descriptor.images?.[0]?.url}
+        alt={course.descriptor.name}
       />
       <div className="absolute top-2 right-2 bg-black bg-opacity-50 text-white text-xs px-2 py-1 rounded-full flex items-center space-x-1">
         <svg
@@ -29,14 +66,21 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => (
         >
           <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
         </svg>
-        <span className="font-bold">{course.progress}%</span>
+        {/* Show rating if available, else fallback to N/A */}
+        <span className="font-bold">
+          {course.rating ? `${course.rating}★` : "N/A"}
+        </span>
       </div>
     </div>
     <div className="p-4">
       <div className="flex justify-between items-start">
         <div>
-          <p className="text-xs text-gray-500">{course.price}</p>
-          <h3 className="font-bold text-gray-800 mt-1">{course.title}</h3>
+          <p className="text-xs text-gray-500">
+            {course.price?.currency} {course.price?.value}
+          </p>
+          <h3 className="font-bold text-gray-800 mt-1">
+            {course.descriptor.name}
+          </h3>
         </div>
         <button className="text-gray-400 hover:text-gray-600">
           <svg
@@ -55,7 +99,9 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => (
           </svg>
         </button>
       </div>
-      <p className="text-sm text-gray-600 mt-2">{course.description}</p>
+      <p className="text-sm text-gray-600 mt-2">
+        {course.descriptor.short_desc}
+      </p>
     </div>
   </div>
 );
