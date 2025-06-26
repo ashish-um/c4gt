@@ -1,14 +1,13 @@
-version: '3.8'
+version: "3.8"
 services:
-  # Your Node.js BPP Webhook Application
   bpp_webhook:
-    build: . # This tells Docker to build an image from the Dockerfile in the current directory
+    build: .
     container_name: bpp_webhook_app
     ports:
-      - "8080:8080" # Maps your local port 8080 to the container's port 8080
+      - "8080:8080"
     volumes:
-      # This syncs your local code with the container, so changes are reflected instantly
-      - .:/usr/src/app 
+      # This syncs the local code with the container, so changes are reflected instantly
+      - .:/usr/src/app
     env_file: ./.env
     networks:
       - local-beckn-net
@@ -19,7 +18,7 @@ services:
     container_name: elasticsearch_local
     environment:
       - discovery.type=single-node
-      - xpack.security.enabled=false # Easiest for development
+      - xpack.security.enabled=false
     ports:
       - "9200:9200" # Expose Elasticsearch on your local port 9200
     networks:
