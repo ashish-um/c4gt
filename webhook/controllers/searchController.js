@@ -3,31 +3,19 @@ const becknAuthService = require("../services/becknAuthService");
 const path = require("path");
 const fs = require("fs");
 const COURSES_DIR = path.join(__dirname, "..", "data", "courses");
-let allCourses = [];
+const { handleElasticSearch } = require("./testSearchController");
 
-try {
-  const files = fs.readdirSync(COURSES_DIR);
-  console.log(files);
-  allCourses = files
-    .map((file) => {
-      if (file.endsWith(".json")) {
-        const filePath = path.join(COURSES_DIR, file);
-        const fileContent = fs.readFileSync(filePath, "utf8");
-        return JSON.parse(fileContent);
-      }
-    })
-    .filter((course) => course); // Filter out any null values from non-json files
-  console.log(`Loaded ${allCourses.length} courses successfully.`);
-} catch (error) {
-  console.error("Error loading course data:", error);
-}
-
-const handleSearch = (context) => {
+const handleSearch = async (context, item) => {
   const onSearchContext = {
     ...context,
     action: "on_search",
     timestamp: new Date().toISOString(),
   };
+
+  console.log(item);
+  const query = item.descriptor.name;
+
+  const results = await handleElasticSearch(query);
 
   const onSearchPayload = {
     context: onSearchContext,
@@ -73,7 +61,7 @@ const handleSearch = (context) => {
                 },
               },
             ],
-            items: allCourses,
+            items: results,
             fulfillments: [
               {
                 agent: {

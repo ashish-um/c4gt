@@ -15,7 +15,11 @@ router.post("/", (req, res) => {
 
   switch (action) {
     case "search":
-      onSearchController.handleSearch(payload.context);
+      if (payload.message.intent.item)
+        onSearchController.handleSearch(
+          payload.context,
+          payload.message.intent.item
+        );
       break;
     default:
       console.log(`No handler for action: ${action}`);
