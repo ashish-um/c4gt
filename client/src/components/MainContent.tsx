@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo, useRef } from "react";
 import FilterDropdown from "./FilterDropdown";
 import CourseCard from "./CourseCard";
 import type { Course } from "./CourseCard";
@@ -6,29 +6,186 @@ import { SearchIcon, MicIcon } from "./Icons";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 
+const CATEGORY_LABELS: Record<string, string> = {
+  "Banking-Financial": "Banking & Financial",
+  "Education-Learning": "Education & Learning",
+  "Health-Wellness": "Health & Wellness",
+  "State-Scheme": "State Scheme",
+  "Central-Scheme": "Central Scheme",
+};
+
+const LANGUAGE_LABELS: Record<string, string> = {
+  hi: "Hindi",
+  en: "English",
+  mr: "Marathi",
+};
+
+const LEVEL_LABELS: Record<string, string> = {
+  Beginner: "Beginner",
+  Advanced: "Advanced",
+};
+
+const CATEGORY_OPTIONS = [
+  "Banking-Financial",
+  "Education-Learning",
+  "Health-Wellness",
+  "State-Scheme",
+  "Central-Scheme",
+];
+const LANGUAGE_OPTIONS = ["hi", "en", "mr"];
+const LEVEL_OPTIONS = ["Beginner", "Advanced"];
+
 const MainContent: React.FC = () => {
   const [courses, setCourses] = useState<Course[]>([]);
   const [searchParams, setSearchParams] = useSearchParams();
-  // Local state for search input
-  const [search, setSearch] = React.useState("");
+  const [search, setSearch] = React.useState(searchParams.get("q") || "");
+
+  // Filter state
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("");
+  const [selectedLevel, setSelectedLevel] = useState<string>("");
+
+  const searchRequest = {
+    context: {
+      domain: "dsep:courses",
+      action: "search",
+      version: "1.1.0",
+      bap_id: "test-id",
+      bap_uri: "http://20.187.151.177:6002",
+      bpp_id: "bpp-ashish",
+      location: {
+        city: {
+          name: "Bangalore",
+          code: "std:080",
+        },
+        country: {
+          name: "India",
+          code: "IND",
+        },
+      },
+      transaction_id: "a9aaecca-10b7-4d19-b640-b047a7c62196",
+      message_id: self.crypto.randomUUID(),
+      ttl: "PT10M",
+      timestamp: new Date().toISOString(),
+    },
+    message: {
+      intent: {
+        item: {
+          descriptor: {
+            name: search,
+          },
+          tags: [
+            {
+              descriptor: { name: "language" },
+              list: [{ value: "Hindi" }],
+            },
+            {
+              descriptor: { name: "level" },
+              list: [{ value: "beginner" }],
+            },
+            {
+              descriptor: { name: "delivery_mode" },
+              list: [{ value: "online" }],
+            },
+          ],
+        },
+      },
+    },
+  };
+
+  // Progress bar state
+  const [loading, setLoading] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const progressRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (!searchParams.get("q")) return;
-    setSearch(searchParams.get("q") || "");
-    console.log(`sending req for ${searchParams.get("q")}`);
+    setLoading(true);
+    setProgress(0);
+
+    // Animate progress bar over 15 seconds
+    const start = Date.now();
+    const duration = 15000;
+    function animate() {
+      const elapsed = Date.now() - start;
+      const percent = Math.min((elapsed / duration) * 100, 100);
+      setProgress(percent);
+      if (percent < 100) {
+        progressRef.current = setTimeout(animate, 100);
+      }
+    }
+    animate();
+
     axios
-      .get(`http://localhost:8080/test-search?query=${searchParams.get("q")}`)
-      .then((res) => setCourses(res.data));
+      .post("http://localhost:3001/", searchRequest, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then((response) => {
+        setCourses(response.data);
+        setLoading(false);
+        setProgress(100);
+        if (progressRef.current) clearTimeout(progressRef.current);
+        if (response.data.length === 0) alert("No Courses Found!");
+      })
+      .catch((error) => {
+        setLoading(false);
+        setProgress(0);
+        if (progressRef.current) clearTimeout(progressRef.current);
+        console.error(
+          "Search request failed:",
+          error.response?.data || error.message
+        );
+      });
+    // Cleanup on unmount or next request
+    return () => {
+      if (progressRef.current) clearTimeout(progressRef.current);
+    };
   }, [searchParams]);
+
+  // Filtering logic (frontend only)
+  const filteredCourses = useMemo(() => {
+    return courses.filter((course) => {
+      // Language filter
+      if (selectedLanguage) {
+        const hasLang = course.tags?.some((tag) =>
+          tag.list.some(
+            (item) =>
+              item.descriptor.code === "lang-code" &&
+              item.value === selectedLanguage
+          )
+        );
+        if (!hasLang) return false;
+      }
+      // Category filter
+      if (selectedCategory) {
+        if (!course.category_ids?.includes(selectedCategory)) return false;
+      }
+      // Level filter
+      if (selectedLevel) {
+        const hasLevel = course.tags?.some((tag) =>
+          tag.list.some(
+            (item) =>
+              item.descriptor.code === "learner-level" &&
+              item.value === selectedLevel
+          )
+        );
+        if (!hasLevel) return false;
+      }
+      return true;
+    });
+  }, [courses, selectedLanguage, selectedCategory, selectedLevel]);
 
   // Handle form submit: update URL query param
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setCourses([]);
     setSearchParams({ q: search });
   };
 
   return (
-    <main className="flex-1 bg-gray-50/50 p-6 sm:p-8">
+    <main className="flex-1 h-svh bg-gray-50/50 p-6 sm:p-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
@@ -53,6 +210,16 @@ const MainContent: React.FC = () => {
           </button>
         </div>
 
+        {/* Progress Bar */}
+        {loading && (
+          <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden mb-4">
+            <div
+              className="h-full bg-teal-500 transition-all"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
+        )}
+
         {/* Search and Filters */}
         <div className="bg-white p-4 rounded-xl border border-gray-200">
           <form onSubmit={handleSubmit}>
@@ -73,9 +240,33 @@ const MainContent: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-              <FilterDropdown label="Language" />
-              <FilterDropdown label="Category/Topic" />
-              <FilterDropdown label="Level" />
+              <FilterDropdown
+                label="Language"
+                options={LANGUAGE_OPTIONS.map((code) => ({
+                  value: code,
+                  label: LANGUAGE_LABELS[code] || code,
+                }))}
+                value={selectedLanguage}
+                onChange={setSelectedLanguage}
+              />
+              <FilterDropdown
+                label="Category/Topic"
+                options={CATEGORY_OPTIONS.map((cat) => ({
+                  value: cat,
+                  label: CATEGORY_LABELS[cat] || cat,
+                }))}
+                value={selectedCategory}
+                onChange={setSelectedCategory}
+              />
+              <FilterDropdown
+                label="Level"
+                options={LEVEL_OPTIONS.map((lvl) => ({
+                  value: lvl,
+                  label: LEVEL_LABELS[lvl] || lvl,
+                }))}
+                value={selectedLevel}
+                onChange={setSelectedLevel}
+              />
               <button
                 type="submit"
                 className="w-full bg-teal-500 text-white font-semibold rounded-md py-2 px-4 hover:bg-teal-600 transition-colors text-sm"
@@ -87,11 +278,23 @@ const MainContent: React.FC = () => {
         </div>
 
         {/* Courses Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
-          {courses.map((course) => (
-            <CourseCard key={course.id} course={course} />
-          ))}
-        </div>
+        {loading ? (
+          // Show nothing below the progress bar while loading
+          <></>
+        ) : courses.length === 0 ? (
+          <center className="mt-4 text-2xl">No Courses Found!</center>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+            {filteredCourses.map((course) => (
+              <CourseCard
+                key={course.id}
+                course={course}
+                categoryLabels={CATEGORY_LABELS}
+                languageLabels={LANGUAGE_LABELS}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </main>
   );

@@ -1,13 +1,35 @@
 import React from "react";
 
-interface FilterDropdownProps {
+interface Option {
+  value: string;
   label: string;
 }
 
-const FilterDropdown: React.FC<FilterDropdownProps> = ({ label }) => (
+interface FilterDropdownProps {
+  label: string;
+  options?: Option[];
+  value?: string;
+  onChange?: (value: string) => void;
+}
+
+const FilterDropdown: React.FC<FilterDropdownProps> = ({
+  label,
+  options = [],
+  value = "",
+  onChange = () => {},
+}) => (
   <div className="relative">
-    <select className="appearance-none w-full bg-white border border-gray-300 rounded-md py-2 px-4 pr-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-sm">
-      <option>{label}</option>
+    <select
+      className="appearance-none w-full bg-white border border-gray-300 rounded-md py-2 px-4 pr-8 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-sm"
+      value={value}
+      onChange={(e) => onChange(e.target.value)}
+    >
+      <option value="">{label}</option>
+      {options.map((opt) => (
+        <option key={opt.value} value={opt.value}>
+          {opt.label}
+        </option>
+      ))}
     </select>
     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
       <svg
