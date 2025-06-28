@@ -4,17 +4,16 @@ const path = require("path");
 
 const client = new Client({ node: "http://localhost:9200" });
 
-const COURSES_DIR = path.join(__dirname, "data", "courses");
+const COURSES_DIR = path.join(__dirname, "data", "courses", "myscheme_gov");
 const INDEX_NAME = "haqdarshak-courses";
 
 async function run() {
   // Check if the index exists and delete it for a clean start
-  const { body: indexExists } = await client.indices.exists({
-    index: INDEX_NAME,
-  });
-  if (indexExists) {
-    console.log(`Deleting old index '${INDEX_NAME}'...`);
+  try {
+    console.log("Deleting index");
     await client.indices.delete({ index: INDEX_NAME });
+  } catch {
+    console.log("couldn't delete index");
   }
 
   console.log(`Creating new index '${INDEX_NAME}'...`);

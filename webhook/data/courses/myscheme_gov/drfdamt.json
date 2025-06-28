@@ -1,0 +1,88 @@
+{
+  "id": "COURSE-DRFK-MED-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Kerala Distress Relief Fund (Medical) Application Guide",
+    "short_desc": "Learn to assist differently-abled individuals in Kerala in applying for a one-time grant for medical treatment through the SUNEETHI portal.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This course explains the 'Distress Relief Fund for the Differently Abled' offered by the Kerala Government's Social Justice Department. Agents will learn how to guide eligible differently-abled persons with low income through the online application process to receive financial aid for medical treatments, including surgery.</p><ol><li><strong>Financial Aid Details:</strong><br>Understand the scheme's benefit of a one-time financial assistance of ₹5,000 per person per year, sourced from the interest of a government corpus fund.</li><li><strong>Strict Eligibility Criteria:</strong><br>Master the specific eligibility rules, including being a Kerala resident, the very low annual income ceilings (₹20,000 Rural, ₹22,375 Urban), and the recognized categories of disabilities.</li><li><strong>SUNEETHI Portal Application:</strong><br>Learn the detailed, multi-step online application process on the SUNEETHI portal, covering one-time registration, profile creation, document uploads, and final submission.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Provide critical support to vulnerable individuals in need of urgent medical funding.</li><li>Specialize in a key state-level health and welfare scheme for the differently-abled.</li><li>Become proficient in navigating the SUNEETHI online service portal for efficient application processing.</li></ul>",
+    "images": [
+      {
+        "url": "https://navi.com/blog/wp-content/uploads/2021/12/Types-Of-Health-Insurance-Schemes-Offered-By-The-Government-Of-India.jpg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://suneethi.sjd.kerala.gov.in/"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Kerala Social Justice Scheme Facilitators",
+      "short_desc": "Dedicated to facilitating access to social welfare schemes for the vulnerable sections in Kerala.",
+      "long_desc": "Our mission is to ensure that the benefits of social security and empowerment schemes from the Department of Social Justice reach every eligible citizen through clear and accessible guidance.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Emblem_of_Kerala.svg/1200px-Emblem_of_Kerala.svg.png"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["State-Scheme", "Health-Wellness"],
+  "rating": "4.7",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Grant"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Disabled"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "en"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P3H"
+        }
+      ],
+      "display": true
+    }
+  ]
+}

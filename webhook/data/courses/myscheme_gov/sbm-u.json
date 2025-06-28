@@ -1,0 +1,88 @@
+{
+  "id": "COURSE-SBMU-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Swachh Bharat Mission - Urban (IHHL) Application Guide",
+    "short_desc": "A course on how to assist urban households in applying for financial aid for individual toilet construction under Swachh Bharat Mission 2.0.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module provides a detailed guide on the Individual Household Latrine (IHHL) component of the Swachh Bharat Mission – Urban 2.0. Agents will learn how to help urban households without access to a toilet apply for financial support to construct one, contributing to a cleaner and healthier India.</p><ol><li><strong>Financial Support Tiers:</strong><br>Understand the different levels of financial assistance provided for toilet construction, which varies by state and Union Territory (e.g., ₹6667 in UP, ₹12,000 in Uttarakhand, ₹5333 in UTs).</li><li><strong>Eligibility for IHHL:</strong><br>Learn the eligibility criteria, focusing on any urban household that either does not have an individual toilet or uses an insanitary latrine.</li><li><strong>Online Application Steps:</strong><br>Master the online application process, from registering for a Login ID to filling in geographical details, toilet owner's particulars, and uploading necessary documents like bank details and a photograph.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Play a direct role in making India's urban areas Open Defecation Free (ODF).</li><li>Specialize in a flagship national sanitation and public health scheme.</li><li>Empower urban households to improve their health and dignity by accessing government support.</li></ul>",
+    "images": [
+      {
+        "url": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/03/Untitled-1-copy-1.jpg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://sbmurban.org/ihhl-application"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "National Urban Sanitation Training Council",
+      "short_desc": "Focused on capacity building for urban sanitation and waste management missions.",
+      "long_desc": "The National Urban Sanitation Training Council is committed to the goals of the Swachh Bharat Mission by creating skilled agents who can facilitate the scheme's implementation at the grassroots level.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Swachh_Bharat_Mission_logo.svg/1200px-Swachh_Bharat_Mission_logo.svg.png"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["Central-Scheme", "Health-Wellness"],
+  "rating": "4.8",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Sanitation"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Households"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P2H"
+        }
+      ],
+      "display": true
+    }
+  ]
+}

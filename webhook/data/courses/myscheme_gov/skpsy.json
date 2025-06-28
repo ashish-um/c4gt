@@ -1,0 +1,88 @@
+{
+  "id": "COURSE-SKPSY-CG-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Chhattisgarh Maternity Assistance (SKPSY) Application Guide",
+    "short_desc": "Learn to guide unorganized workers in Chhattisgarh to apply for maternity and paternity financial assistance under the Safai Karmakar Prasuti Sahayata Yojana.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module provides a comprehensive guide to the Safai Karmakar Prasuti Sahayata Yojana, a scheme by the Chhattisgarh Labour Department. Agents will learn how to assist registered unorganized workers in applying for financial aid during pregnancy and childbirth, supporting both mothers and fathers.</p><ol><li><strong>Maternity & Paternity Benefits:</strong><br>Understand the financial assistance structure: Female workers receive a total of ₹7,000 in two installments during pregnancy, while male workers receive ₹3,000 as paternity assistance after childbirth.</li><li><strong>Registration & Eligibility:</strong><br>Master the primary eligibility criterion: the applicant must be a registered worker with the Chhattisgarh Unorganized Workers State Social Security Board. The benefit is available for the first two children only.</li><li><strong>Online Application Workflow:</strong><br>Learn the distinct online application processes for both new worker registration and applying for the scheme as an already registered worker through the official Chhattisgarh Labour Department portal.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Provide essential financial support to unorganized workers' families during a critical time.</li><li>Specialize in a key state-level health and welfare scheme for labourers.</li><li>Become an expert in navigating the Chhattisgarh Labour Department's online portal for registrations and scheme applications.</li></ul>",
+    "images": [
+      {
+        "url": "https://www.iifl.com/files/iifl_insights/images/Government-Business-Loan-Schemes-750x400.png"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://cglabour.nic.in/"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Chhattisgarh Labour Welfare Facilitation Unit",
+      "short_desc": "Dedicated to facilitating access to welfare and social security schemes for workers in Chhattisgarh.",
+      "long_desc": "The Chhattisgarh Labour Welfare Facilitation Unit aims to empower the state's workforce by providing clear, actionable guidance on all schemes offered by the Labour Department, ensuring benefits reach those who need them most.",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Seal_of_Chhattisgarh.svg/1024px-Seal_of_Chhattisgarh.svg.png"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["State-Scheme", "Health-Wellness"],
+  "rating": "4.6",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Maternity"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Workers"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P3H"
+        }
+      ],
+      "display": true
+    }
+  ]
+}
