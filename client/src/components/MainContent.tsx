@@ -45,6 +45,11 @@ const MainContent: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [selectedLevel, setSelectedLevel] = useState<string>("");
 
+  // Result type state
+  const [resultType, setResultType] = useState<"course" | "certification">(
+    "course"
+  );
+
   const searchRequest = {
     context: {
       domain: "dsep:courses",
@@ -76,16 +81,8 @@ const MainContent: React.FC = () => {
           },
           tags: [
             {
-              descriptor: { name: "language" },
-              list: [{ value: "Hindi" }],
-            },
-            {
-              descriptor: { name: "level" },
-              list: [{ value: "beginner" }],
-            },
-            {
-              descriptor: { name: "delivery_mode" },
-              list: [{ value: "online" }],
+              descriptor: { name: "search-type" },
+              list: [{ value: resultType }],
             },
           ],
         },
@@ -223,22 +220,54 @@ const MainContent: React.FC = () => {
         {/* Search and Filters */}
         <div className="bg-white p-4 rounded-xl border border-gray-200">
           <form onSubmit={handleSubmit}>
-            <div className="relative mb-4">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <SearchIcon />
+            <div className="relative mb-4 flex items-center">
+              {/* Button group for result type */}
+              <div className="mr-3 flex">
+                <button
+                  type="button"
+                  className={`px-3 py-2 rounded-l-md border border-gray-300 text-sm font-medium ${
+                    resultType === "course"
+                      ? "bg-teal-500 text-white"
+                      : "bg-white text-gray-700"
+                  }`}
+                  onClick={() => {
+                    setResultType("course");
+                    setSearch("");
+                  }}
+                >
+                  Course
+                </button>
+                <button
+                  type="button"
+                  className={`px-3 py-2 rounded-r-md border-t border-b border-r border-gray-300 text-sm font-medium ${
+                    resultType === "certification"
+                      ? "bg-teal-500 text-white"
+                      : "bg-white text-gray-700"
+                  }`}
+                  onClick={() => {
+                    setResultType("certification");
+                    setSearch("");
+                  }}
+                >
+                  Certification
+                </button>
               </div>
-              <input
-                type="text"
-                placeholder="Search for Skilling Modules & Courses..."
-                className="w-full py-2.5 pl-10 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              />
-              <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
-                <MicIcon />
+              <div className="flex-1 relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <SearchIcon />
+                </div>
+                <input
+                  type="text"
+                  placeholder="Search for Skilling Modules & Courses..."
+                  className="w-full py-2.5 pl-10 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                />
+                <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+                  <MicIcon />
+                </div>
               </div>
             </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
               <FilterDropdown
                 label="Language"
