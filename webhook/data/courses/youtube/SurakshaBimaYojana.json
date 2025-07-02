@@ -1,0 +1,110 @@
+{
+  "id": "COURSE-PMSBY-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) Enrollment Guide",
+    "short_desc": "A course on helping citizens enroll in the government's low-cost accidental insurance scheme, PMSBY.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module provides a complete guide to the Pradhan Mantri Suraksha Bima Yojana (PMSBY), a government-backed accident insurance scheme. Agents will learn the scheme's features, benefits, and the simple enrollment process to help citizens secure vital financial protection against unforeseen accidents.</p><ol><li><strong>Scheme Benefits & Premium:</strong><br>Understand the insurance coverage: ₹2 Lakh for accidental death or total permanent disability, and ₹1 Lakh for partial permanent disability, all for a nominal annual premium of just ₹20.</li><li><strong>Eligibility Criteria:</strong><br>Master the straightforward eligibility rules. Any Indian citizen between the ages of 18 and 70 with a savings bank account is eligible to join this scheme.</li><li><strong>Enrollment Process:</strong><br>Learn the auto-debit enrollment process. The premium is automatically deducted from the subscriber's bank account, making it a hassle-free way to maintain coverage.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Provide a crucial financial safety net to citizens, especially those in the unorganized sector.</li><li>Specialize in a high-volume, high-impact national social security scheme.</li><li>Help citizens secure their family's future with an affordable and accessible insurance product.</li></ul>",
+    "images": [
+      {
+        "url": "https://i.ytimg.com/vi/ldjpOQtBpF0/maxresdefault.jpg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://www.youtube.com/watch?v=q1KqAabMOTc"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Haqdarshak",
+      "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+      "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+      "images": [
+        {
+          "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["Central-Scheme", "Banking-Financial"],
+  "rating": "4.7",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Insurance"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Citizens"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P1H"
+        },
+        {
+          "descriptor": {
+            "code": "course-type",
+            "name": "Course Type"
+          },
+          "value": "video + assignment"
+        }
+      ],
+      "display": true
+    },
+    {
+      "descriptor": {
+        "code": "awarded-certifications",
+        "name": "Awarded Certifications"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "cert-social-security",
+            "name": "Social Security Cert"
+          },
+          "value": "Social Security Scheme Advisor"
+        }
+      ]
+    }
+  ]
+}

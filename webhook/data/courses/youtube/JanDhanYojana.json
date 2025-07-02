@@ -1,0 +1,117 @@
+{
+  "id": "COURSE-PMJDY-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Enrollment Guide",
+    "short_desc": "A course to guide agents in helping unbanked citizens open a zero-balance bank account with added benefits under PMJDY.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module covers the Pradhan Mantri Jan Dhan Yojana (PMJDY), India's National Mission for Financial Inclusion. Agents will learn the process of opening a basic savings account for any citizen, providing them access to banking, credit, insurance, and pension services.</p><ol><li><strong>Account Benefits:</strong><br>Understand the core features of a PMJDY account, including no minimum balance requirement, a free RuPay debit card, and access to an overdraft facility of up to ₹10,000.</li><li><strong>Insurance Coverage:</strong><br>Learn about the inbuilt insurance benefits, including an accidental death cover of ₹2 Lakhs for new account holders, which provides a crucial safety net.</li><li><strong>Enrollment Process:</strong><br>Master the simple account opening process, which can be done at any bank branch or Business Correspondent (Bank Mitra) outlet with minimal documentation, making banking accessible to everyone.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Be a part of the world's biggest financial inclusion initiative.</li><li>Empower unbanked individuals by bringing them into the formal financial system.</li><li>Help citizens access a range of financial services and government scheme benefits directly in their accounts.</li></ul>",
+    "images": [
+      {
+        "url": "https://i.ytimg.com/vi/hJkVQRWzQjY/maxresdefault.jpg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://www.youtube.com/watch?v=q1KqAabMOTc"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Haqdarshak",
+      "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+      "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+      "images": [
+        {
+          "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["Central-Scheme", "Banking-Financial"],
+  "rating": "4.9",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Banking"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Citizens"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P2H"
+        },
+        {
+          "descriptor": {
+            "code": "course-type",
+            "name": "Course Type"
+          },
+          "value": "video + assignment"
+        }
+      ],
+      "display": true
+    },
+    {
+      "descriptor": {
+        "code": "awarded-certifications",
+        "name": "Awarded Certifications"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "cert-financial-inclusion",
+            "name": "Financial Inclusion Cert"
+          },
+          "value": "Financial Inclusion Specialist"
+        },
+        {
+          "descriptor": {
+            "code": "cert-pm-yojana",
+            "name": "PM Yojana Cert"
+          },
+          "value": "Pradhan Mantri Yojana Advisor"
+        }
+      ]
+    }
+  ]
+}

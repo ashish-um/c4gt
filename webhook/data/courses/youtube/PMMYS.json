@@ -1,0 +1,117 @@
+{
+  "id": "COURSE-PMMYS-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Pradhan Mantri Mudra Yojana (Shishu) Loan Guide",
+    "short_desc": "A course on securing a collateral-free business loan of up to ₹50,000 under the PMMY Shishu category for starting a micro-enterprise.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module focuses on the 'Shishu' category of the Pradhan Mantri Mudra Yojana (PMMY), the entry-level loan for aspiring entrepreneurs. Agents will learn how to guide individuals in securing their first business loan of up to ₹50,000 to start a new micro-enterprise.</p><ol><li><strong>Loan Details:</strong><br>Understand the specifics of the Shishu loan, which covers amounts up to ₹50,000. It is ideal for very small businesses, street vendors, artisans, or individuals starting a new venture with minimal capital requirements.</li><li><strong>Eligibility and Documentation:</strong><br>Master the simple eligibility criteria for new entrepreneurs. Learn the basic documentation required, such as KYC documents and a simple business idea, making it accessible for those at the grassroots level.</li><li><strong>Application Process:</strong><br>Learn the process of applying for a Shishu loan through various lending institutions, including banks, NBFCs, and Micro-Finance Institutions (MFIs). The course emphasizes the collateral-free nature of the loan.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower aspiring entrepreneurs to take their first step into the business world.</li><li>Specialize in the most accessible category of a major government scheme for micro-enterprise financing.</li><li>Become a key facilitator in fostering self-employment and grassroots economic activity.</li></ul>",
+    "images": [
+      {
+        "url": "https://i.ytimg.com/vi/oM70bsgJj08/maxresdefault.jpg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://www.youtube.com/watch?v=q1KqAabMOTc"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Haqdarshak",
+      "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+      "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+      "images": [
+        {
+          "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["Central-Scheme", "Banking-Financial"],
+  "rating": "4.7",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Loan"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Entrepreneurs"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P2H"
+        },
+        {
+          "descriptor": {
+            "code": "course-type",
+            "name": "Course Type"
+          },
+          "value": "video"
+        }
+      ],
+      "display": true
+    },
+    {
+      "descriptor": {
+        "code": "awarded-certifications",
+        "name": "Awarded Certifications"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "cert-micro-finance",
+            "name": "Micro Finance Cert"
+          },
+          "value": "Micro Finance Advisor"
+        },
+        {
+          "descriptor": {
+            "code": "cert-mudra-yojana",
+            "name": "Mudra Yojana Cert"
+          },
+          "value": "Certified Mudra Yojana Consultant"
+        }
+      ]
+    }
+  ]
+}

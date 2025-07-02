@@ -1,0 +1,117 @@
+{
+  "id": "COURSE-JSY-001",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Janani Suraksha Yojana (JSY) Application Guide",
+    "short_desc": "A course on assisting pregnant women from BPL/SC/ST households to receive cash assistance for institutional delivery under JSY.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module delves into the Janani Suraksha Yojana (JSY), a centrally sponsored scheme under the National Health Mission aimed at reducing maternal and neonatal mortality. Agents will learn how to guide eligible pregnant women to avail cash assistance by promoting delivery in a health facility.</p><ol><li><strong>Scheme Objective & Benefits:</strong><br>Understand the core objective of promoting institutional deliveries. Learn about the cash assistance provided to mothers post-delivery, with amounts varying based on state performance (LPS/HPS) and whether the beneficiary is in a rural or urban area.</li><li><strong>Eligibility Criteria:</strong><br>Master the eligibility for the scheme, focusing on pregnant women from BPL, SC, and ST households. The age of the mother must be 19 years or above, and the benefit is for the first two live births.</li><li><strong>Role of ASHA Workers:</strong><br>Learn about the crucial role of Accredited Social Health Activists (ASHA) in identifying beneficiaries, assisting with paperwork, and accompanying them to the health center. ASHA workers also receive an incentive for their services.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Play a direct role in saving the lives of mothers and newborns.</li><li>Specialize in a vital public health initiative with a nationwide presence.</li><li>Empower women from vulnerable communities to access safe and secure childbirth facilities.</li></ul>",
+    "images": [
+      {
+        "url": "https://i.ytimg.com/vi/9lu0VMR2cno/maxresdefault.jpg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://www.youtube.com/watch?v=q1KqAabMOTc"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Haqdarshak",
+      "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+      "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+      "images": [
+        {
+          "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["Central-Scheme", "Health-Wellness"],
+  "rating": "4.8",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Maternity"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Women"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P2H"
+        },
+        {
+          "descriptor": {
+            "code": "course-type",
+            "name": "Course Type"
+          },
+          "value": "video"
+        }
+      ],
+      "display": true
+    },
+    {
+      "descriptor": {
+        "code": "awarded-certifications",
+        "name": "Awarded Certifications"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "cert-maternal-health",
+            "name": "Maternal Health Cert"
+          },
+          "value": "Maternal Health Scheme Advisor"
+        },
+        {
+          "descriptor": {
+            "code": "cert-asha-facilitator",
+            "name": "ASHA Facilitator Cert"
+          },
+          "value": "Certified ASHA Scheme Facilitator"
+        }
+      ]
+    }
+  ]
+}

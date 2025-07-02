@@ -1,0 +1,117 @@
+{
+  "id": "COURSE-APY-002",
+  "quantity": {
+    "maximum": {
+      "count": 1
+    }
+  },
+  "descriptor": {
+    "name": "Atal Pension Yojana (APY) Enrollment Specialist",
+    "short_desc": "A course on enrolling unorganized sector workers into the government's guaranteed pension scheme, APY.",
+    "long_desc": "<p><strong>Course Overview:</strong><br>This module offers a detailed guide to the Atal Pension Yojana (APY), a government initiative to provide old-age income security to workers in the unorganized sector. Agents will learn about the contribution structure, benefits, and how to enroll citizens in this pension scheme.</p><ol><li><strong>Pension Benefits:</strong><br>Understand the guaranteed minimum monthly pension amounts of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 available to subscribers after the age of 60.</li><li><strong>Contribution Structure:</strong><br>Learn how the fixed monthly contribution is determined based on the subscriber's age at the time of joining and the chosen monthly pension amount.</li><li><strong>Enrollment Process:</strong><br>Master the process of enrolling a citizen through a bank or post office where they hold a savings account, including setting up the auto-debit facility for monthly contributions.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower workers in the unorganized sector to build a secure financial future for their retirement.</li><li>Specialize in a critical social security scheme with wide-reaching impact.</li><li>Enhance your role as a comprehensive financial advisor for your community.</li></ul>",
+    "images": [
+      {
+        "url": "https://i.ytimg.com/vi/twhigG18ybE/maxresdefault.jpg"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://www.youtube.com/watch?v=q1KqAabMOTc"
+      }
+    ]
+  },
+  "creator": {
+    "descriptor": {
+      "name": "Haqdarshak",
+      "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+      "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+      "images": [
+        {
+          "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+        }
+      ]
+    }
+  },
+  "price": {
+    "currency": "INR",
+    "value": "0"
+  },
+  "category_ids": ["Central-Scheme", "Banking-Financial"],
+  "rating": "4.8",
+  "rateable": true,
+  "tags": [
+    {
+      "descriptor": {
+        "code": "scheme-metadata",
+        "name": "Scheme Metadata"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "learner-level",
+            "name": "Learner Level"
+          },
+          "value": "Beginner"
+        },
+        {
+          "descriptor": {
+            "code": "scheme-type",
+            "name": "Scheme Type"
+          },
+          "value": "Pension"
+        },
+        {
+          "descriptor": {
+            "code": "target-audience",
+            "name": "Target Audience"
+          },
+          "value": "Workers"
+        },
+        {
+          "descriptor": {
+            "code": "lang-code",
+            "name": "Language"
+          },
+          "value": "hi"
+        },
+        {
+          "descriptor": {
+            "code": "course-duration",
+            "name": "Course Duration"
+          },
+          "value": "P3H"
+        },
+        {
+          "descriptor": {
+            "code": "course-type",
+            "name": "Course Type"
+          },
+          "value": "video"
+        }
+      ],
+      "display": true
+    },
+    {
+      "descriptor": {
+        "code": "awarded-certifications",
+        "name": "Awarded Certifications"
+      },
+      "list": [
+        {
+          "descriptor": {
+            "code": "cert-pension-pro",
+            "name": "Pension Pro Cert"
+          },
+          "value": "Certified Pension Scheme Advisor"
+        },
+        {
+          "descriptor": {
+            "code": "cert-social-security",
+            "name": "Social Security Cert"
+          },
+          "value": "Social Security Scheme Advisor"
+        }
+      ]
+    }
+  ]
+}
