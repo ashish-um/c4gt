@@ -4,7 +4,7 @@ const path = require("path");
 
 const client = new Client({ node: "http://localhost:9200" });
 
-const COURSES_DIR = path.join(__dirname, "data", "courses", "myscheme_gov");
+const COURSES_DIR = path.join(__dirname, "data", "courses", "youtube");
 const INDEX_NAME = "haqdarshak-courses";
 
 async function run() {
@@ -17,7 +17,36 @@ async function run() {
   }
 
   console.log(`Creating new index '${INDEX_NAME}'...`);
-  await client.indices.create({ index: INDEX_NAME });
+  await client.indices.create({
+    index: INDEX_NAME,
+    body: {
+      mappings: {
+        properties: {
+          tags: {
+            type: "nested", // Treat the entire tags array as nested
+            properties: {
+              descriptor: {
+                properties: {
+                  code: { type: "keyword" }, // Use keyword for exact matching on code
+                },
+              },
+              list: {
+                type: "nested", // The list inside each tag group is also nested
+                properties: {
+                  descriptor: {
+                    properties: {
+                      name: { type: "text" },
+                    },
+                  },
+                  value: { type: "text" },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  });
 
   // Read course files from your data directory
   const files = fs.readdirSync(COURSES_DIR).filter((f) => f.endsWith(".json"));
@@ -49,9 +78,7 @@ async function run() {
     });
     console.log(erroredDocuments);
   } else {
-    console.log(
-      `✅ Successfully indexed ${bulkResponse.items.length} documents.`
-    );
+    console.log(`Successfully indexed ${bulkResponse.items.length} documents.`);
   }
 }
 

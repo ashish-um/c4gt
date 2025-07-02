@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const onSearchController = require("../controllers/searchController");
-const onTestSearchController = require("../controllers/testSearchController");
+const onTestSearchController = require("../services/elasticSearchService");
 
 router.post("/", (req, res) => {
   const payload = req.body;

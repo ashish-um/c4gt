@@ -3,7 +3,7 @@ const becknAuthService = require("../services/becknAuthService");
 const path = require("path");
 const fs = require("fs");
 const COURSES_DIR = path.join(__dirname, "..", "data", "courses");
-const { handleElasticSearch } = require("./testSearchController");
+const { handleElasticSearch } = require("../services/elasticSearchService");
 
 const handleSearch = async (context, item) => {
   const onSearchContext = {
@@ -14,8 +14,18 @@ const handleSearch = async (context, item) => {
 
   console.log(item);
   const query = item.descriptor.name;
+  // Determine the search type. We'll default to 'course'.
+  // A BAP can specify the search type via a tag.
+  let searchType = "course";
+  const searchTypeTag = item.tags?.find(
+    (t) => t.descriptor?.name === "search-type"
+  );
+  if (searchTypeTag) {
+    searchType = searchTypeTag.list?.[0]?.value || "course";
+  }
+  console.log(`Performing a "${searchType}" search.`);
 
-  const results = await handleElasticSearch(query);
+  const results = await handleElasticSearch(query, searchType);
 
   const onSearchPayload = {
     context: onSearchContext,
