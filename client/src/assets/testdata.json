@@ -1,0 +1,918 @@
+[
+  {
+    "id": "COURSE-APY-002",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Atal Pension Yojana (APY) Enrollment Specialist",
+      "short_desc": "A course on enrolling unorganized sector workers into the government's guaranteed pension scheme, APY.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module offers a detailed guide to the Atal Pension Yojana (APY), a government initiative to provide old-age income security to workers in the unorganized sector. Agents will learn about the contribution structure, benefits, and how to enroll citizens in this pension scheme.</p><ol><li><strong>Pension Benefits:</strong><br>Understand the guaranteed minimum monthly pension amounts of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 available to subscribers after the age of 60.</li><li><strong>Contribution Structure:</strong><br>Learn how the fixed monthly contribution is determined based on the subscriber's age at the time of joining and the chosen monthly pension amount.</li><li><strong>Enrollment Process:</strong><br>Master the process of enrolling a citizen through a bank or post office where they hold a savings account, including setting up the auto-debit facility for monthly contributions.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower workers in the unorganized sector to build a secure financial future for their retirement.</li><li>Specialize in a critical social security scheme with wide-reaching impact.</li><li>Enhance your role as a comprehensive financial advisor for your community.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/twhigG18ybE/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Workers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-pension-pro",
+              "name": "Pension Pro Cert"
+            },
+            "value": "Certified Pension Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-BJB-PLI-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Bal Jeevan Bima (PLI) Enrollment Guide",
+      "short_desc": "A course on securing a life insurance policy for children of Postal Life Insurance (PLI) policyholders.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module explains the Bal Jeevan Bima, a children's life insurance policy offered by Postal Life Insurance (PLI), Government of India. Agents will learn how to guide existing PLI policyholders in securing an insurance policy for their children, ensuring their financial future is protected.</p><ol><li><strong>Policy Benefits:</strong><br>Understand the features of the policy, which provides a life insurance cover on the child's life. A key benefit is that if the parent (the main policyholder) passes away, all future premiums are waived, but the policy benefits continue until maturity.</li><li><strong>Eligibility Criteria:</strong><br>Master the specific eligibility rules. The policy can be taken for children aged 5 to 20 years. The parent, who must be a PLI policyholder, should not be older than 45. A maximum of two children per family can be covered.</li><li><strong>Sum Assured & Bonus:</strong><br>Learn about the sum assured, which can go up to ₹3 lakh (or the sum assured of the parent's policy, whichever is less). The policy also accrues a bonus, which is paid out with the sum assured at maturity.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Help parents secure the financial future of their children with a government-backed insurance plan.</li><li>Specialize in a niche but important product offered by Postal Life Insurance.</li><li>Provide families with peace of mind through the unique premium waiver benefit.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/ka8U5-tazso/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.6",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Insurance"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Children"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-pli-advisor",
+              "name": "PLI Advisor Cert"
+            },
+            "value": "Certified Postal Life Insurance Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-DASIM-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Dr. Ambedkar Inter-Caste Marriage Scheme Guide",
+      "short_desc": "A guide to assist inter-caste couples in applying for the ₹2.50 lakh financial incentive for social integration.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module explains the Dr. Ambedkar Scheme for Social Integration through Inter-Caste Marriages. Agents will learn how to guide eligible couples—where one spouse is from a Scheduled Caste and the other is not—through the process of applying for a substantial financial incentive designed to support them in their new life.</p><ol><li><strong>Financial Incentive:</strong><br>Understand the scheme's benefit of a ₹2.50 lakh one-time incentive. Learn how 50% of this amount is provided upfront to the couple, with the remaining 50% secured in a 5-year fixed deposit.</li><li><strong>Eligibility Criteria:</strong><br>Master the specific eligibility rules, including the requirement that it must be the first marriage for both spouses, the marriage must be registered under the Hindu Marriage Act, and the couple's total annual income must not exceed ₹5 lakh.</li><li><strong>Application Process:</strong><br>Learn the application process, which requires submitting the proposal to the Dr. Ambedkar Foundation, typically through the sitting MP/MLA or District Collector, within one year of the marriage.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Support couples who take a bold step towards social integration and a casteless society.</li><li>Specialize in a unique central government scheme that promotes social harmony.</li><li>Help eligible couples receive significant financial support to establish their new household.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/PaWhtr7AOJQ/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Incentive"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Couples"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-social-welfare",
+              "name": "Social Welfare Cert"
+            },
+            "value": "Social Welfare Program Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-IGNDP-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Indira Gandhi National Disability Pension (IGNDP) Guide",
+      "short_desc": "A course to help persons with severe disabilities from BPL households apply for the IGNDP monthly pension.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module explains the Indira Gandhi National Disability Pension Scheme (IGNDPS), a part of the National Social Assistance Programme (NSAP). Agents will learn how to assist persons aged 18-79 with severe disabilities and living below the poverty line to secure a monthly pension for their sustenance.</p><ol><li><strong>Pension Benefits:</strong><br>Understand the financial assistance provided under the scheme, which consists of a monthly pension. The amount is contributed by both the Central Government and the State Government, varying by state.</li><li><strong>Eligibility Criteria:</strong><br>Master the key eligibility requirements: the applicant must be aged between 18 and 79 years, belong to a household living Below the Poverty Line (BPL), and have a severe disability (80% or more).</li><li><strong>Application Process:</strong><br>Learn the application process, which is typically handled by the Social Welfare Department at the state or district level, often through local administrative offices like block offices or panchayats.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Provide a vital source of income and social security to some of the most vulnerable members of society.</li><li>Specialize in a fundamental national pension scheme for persons with disabilities.</li><li>Become a crucial link between eligible citizens and the social welfare system.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/P7Hc9WU3GEY/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Disabled"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-disability-welfare",
+              "name": "Disability Welfare Cert"
+            },
+            "value": "Disability Welfare Program Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-IGNWPS-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Guide",
+      "short_desc": "A course on assisting BPL widows aged 40-79 in applying for the IGNWPS monthly pension.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module explains the Indira Gandhi National Widow Pension Scheme (IGNWPS), a component of the National Social Assistance Programme (NSAP). Agents will learn the process to help widows from Below Poverty Line (BPL) households secure a monthly pension to support their livelihood.</p><ol><li><strong>Pension Benefits:</strong><br>Understand the structure of the monthly pension, which includes a contribution from the Central Government, often supplemented by the respective State Government, to provide a regular income source.</li><li><strong>Eligibility Criteria:</strong><br>Master the specific eligibility requirements for the scheme. The applicant must be a widow, aged between 40 and 79 years, and must belong to a household living Below the Poverty Line (BPL) as per government criteria.</li><li><strong>Application Process:</strong><br>Learn the typical application process, which is managed by the Social Welfare Department of the state and often involves applying through local tehsil or block-level offices with necessary documents like a death certificate of the husband, BPL card, and age proof.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Provide a crucial social safety net and a source of dignity for widows in vulnerable situations.</li><li>Specialize in a key national social security pension scheme.</li><li>Become a vital resource in your community for women seeking government support.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/H_nW-I6PhqA/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video + assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-JSY-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Janani Suraksha Yojana (JSY) Application Guide",
+      "short_desc": "A course on assisting pregnant women from BPL/SC/ST households to receive cash assistance for institutional delivery under JSY.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module delves into the Janani Suraksha Yojana (JSY), a centrally sponsored scheme under the National Health Mission aimed at reducing maternal and neonatal mortality. Agents will learn how to guide eligible pregnant women to avail cash assistance by promoting delivery in a health facility.</p><ol><li><strong>Scheme Objective & Benefits:</strong><br>Understand the core objective of promoting institutional deliveries. Learn about the cash assistance provided to mothers post-delivery, with amounts varying based on state performance (LPS/HPS) and whether the beneficiary is in a rural or urban area.</li><li><strong>Eligibility Criteria:</strong><br>Master the eligibility for the scheme, focusing on pregnant women from BPL, SC, and ST households. The age of the mother must be 19 years or above, and the benefit is for the first two live births.</li><li><strong>Role of ASHA Workers:</strong><br>Learn about the crucial role of Accredited Social Health Activists (ASHA) in identifying beneficiaries, assisting with paperwork, and accompanying them to the health center. ASHA workers also receive an incentive for their services.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Play a direct role in saving the lives of mothers and newborns.</li><li>Specialize in a vital public health initiative with a nationwide presence.</li><li>Empower women from vulnerable communities to access safe and secure childbirth facilities.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/9lu0VMR2cno/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Maternity"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-maternal-health",
+              "name": "Maternal Health Cert"
+            },
+            "value": "Maternal Health Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-asha-facilitator",
+              "name": "ASHA Facilitator Cert"
+            },
+            "value": "Certified ASHA Scheme Facilitator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMJDY-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Enrollment Guide",
+      "short_desc": "A course to guide agents in helping unbanked citizens open a zero-balance bank account with added benefits under PMJDY.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module covers the Pradhan Mantri Jan Dhan Yojana (PMJDY), India's National Mission for Financial Inclusion. Agents will learn the process of opening a basic savings account for any citizen, providing them access to banking, credit, insurance, and pension services.</p><ol><li><strong>Account Benefits:</strong><br>Understand the core features of a PMJDY account, including no minimum balance requirement, a free RuPay debit card, and access to an overdraft facility of up to ₹10,000.</li><li><strong>Insurance Coverage:</strong><br>Learn about the inbuilt insurance benefits, including an accidental death cover of ₹2 Lakhs for new account holders, which provides a crucial safety net.</li><li><strong>Enrollment Process:</strong><br>Master the simple account opening process, which can be done at any bank branch or Business Correspondent (Bank Mitra) outlet with minimal documentation, making banking accessible to everyone.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Be a part of the world's biggest financial inclusion initiative.</li><li>Empower unbanked individuals by bringing them into the formal financial system.</li><li>Help citizens access a range of financial services and government scheme benefits directly in their accounts.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/hJkVQRWzQjY/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.9",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Banking"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Citizens"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video + assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-financial-inclusion",
+              "name": "Financial Inclusion Cert"
+            },
+            "value": "Financial Inclusion Specialist"
+          },
+          {
+            "descriptor": {
+              "code": "cert-pm-yojana",
+              "name": "PM Yojana Cert"
+            },
+            "value": "Pradhan Mantri Yojana Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMVY-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Guide",
+      "short_desc": "A course on helping pregnant and lactating women apply for the PMMVY cash incentive for their first child.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module explains the Pradhan Mantri Matru Vandana Yojana (PMMVY), a maternity benefit program by the Government of India. Agents will learn how to assist pregnant and lactating women in securing a cash incentive of ₹5,000 for their first living child, aimed at providing partial wage compensation and promoting better health practices.</p><ol><li><strong>Scheme Benefits & Installments:</strong><br>Understand the financial benefit of ₹5,000, delivered in three installments. Learn the conditions tied to each installment, such as early pregnancy registration, antenatal checkups, and child's birth registration and initial vaccinations.</li><li><strong>Eligibility Criteria:</strong><br>Master the eligibility for the scheme, which is available to all pregnant women and lactating mothers for their first live birth, excluding those in regular employment with the Central/State Government or PSUs.</li><li><strong>Application Process:</strong><br>Learn the application process, which can be done at the Anganwadi Centre (AWC) or approved Health facility, and the required documentation like the Mother and Child Protection (MCP) Card and Aadhaar details.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Support the health and nutrition of mothers and newborns by facilitating access to financial aid.</li><li>Specialize in a crucial national scheme under the National Food Security Act.</li><li>Play a key role in women's empowerment and child development in your community.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/0Fyf9FSOjRw/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Maternity"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video + assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-maternal-health",
+              "name": "Maternal Health Cert"
+            },
+            "value": "Maternal Health Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYK-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Kishore) Loan Guide",
+      "short_desc": "A course on securing business loans from ₹50,000 to ₹5 lakh under the PMMY Kishore category for business expansion.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module focuses on the 'Kishore' category of the Pradhan Mantri Mudra Yojana (PMMY). It's designed to guide agents in assisting existing entrepreneurs who are looking to scale up their operations by securing a collateral-free business loan from a formal financial institution.</p><ol><li><strong>Loan Details:</strong><br>Understand the specifics of the Kishore loan, which ranges from ₹50,001 to ₹5,00,000. Learn about its use for working capital, purchasing machinery, and other business expansion activities.</li><li><strong>Eligibility and Documentation:</strong><br>Master the eligibility criteria for entrepreneurs with an existing business. Learn the documentation required, which often includes KYC, proof of business existence, bank statements, and a report on the business's technical and economic viability.</li><li><strong>Application Process:</strong><br>Learn the process of applying for a Kishore loan through various lending institutions like commercial banks, RRBs, Small Finance Banks, and NBFCs, and how to prepare a solid application for approval.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower small business owners to grow and expand their enterprises.</li><li>Specialize in a key government scheme for financing micro, small, and medium enterprises (MSMEs).</li><li>Become a crucial advisor for entrepreneurs seeking to move to the next stage of their business journey.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/zZFnWBgGZgs/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Intermediate"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video + assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-msme-finance",
+              "name": "MSME Finance Cert"
+            },
+            "value": "MSME Finance Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYS-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Shishu) Loan Guide",
+      "short_desc": "A course on securing a collateral-free business loan of up to ₹50,000 under the PMMY Shishu category for starting a micro-enterprise.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module focuses on the 'Shishu' category of the Pradhan Mantri Mudra Yojana (PMMY), the entry-level loan for aspiring entrepreneurs. Agents will learn how to guide individuals in securing their first business loan of up to ₹50,000 to start a new micro-enterprise.</p><ol><li><strong>Loan Details:</strong><br>Understand the specifics of the Shishu loan, which covers amounts up to ₹50,000. It is ideal for very small businesses, street vendors, artisans, or individuals starting a new venture with minimal capital requirements.</li><li><strong>Eligibility and Documentation:</strong><br>Master the simple eligibility criteria for new entrepreneurs. Learn the basic documentation required, such as KYC documents and a simple business idea, making it accessible for those at the grassroots level.</li><li><strong>Application Process:</strong><br>Learn the process of applying for a Shishu loan through various lending institutions, including banks, NBFCs, and Micro-Finance Institutions (MFIs). The course emphasizes the collateral-free nature of the loan.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower aspiring entrepreneurs to take their first step into the business world.</li><li>Specialize in the most accessible category of a major government scheme for micro-enterprise financing.</li><li>Become a key facilitator in fostering self-employment and grassroots economic activity.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/oM70bsgJj08/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-micro-finance",
+              "name": "Micro Finance Cert"
+            },
+            "value": "Micro Finance Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,41 +1,25 @@
 import React, { useEffect, useState, useMemo, useRef } from "react";
-import FilterDropdown from "./FilterDropdown";
-import CourseCard from "./CourseCard";
-import type { Course } from "./CourseCard";
-import { SearchIcon, MicIcon } from "./Icons";
+import FilterDropdown from "../components/FilterDropdown";
+import CourseCard from "../components/CourseCard";
+import type { Course } from "../components/CourseCard";
+import { SearchIcon, MicIcon } from "../components/Icons";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
+// import data from "../assets/testdata.json";
 
-const CATEGORY_LABELS: Record<string, string> = {
-  "Banking-Financial": "Banking & Financial",
-  "Education-Learning": "Education & Learning",
-  "Health-Wellness": "Health & Wellness",
-  "State-Scheme": "State Scheme",
-  "Central-Scheme": "Central Scheme",
-};
+import {
+  type CourseTypeProp,
+  LANGUAGE_OPTIONS,
+  LANGUAGE_LABELS,
+  CATEGORY_LABELS,
+  CATEGORY_OPTIONS,
+  LEVEL_LABELS,
+  LEVEL_OPTIONS,
+} from "../components/MetaContent";
 
-const LANGUAGE_LABELS: Record<string, string> = {
-  hi: "Hindi",
-  en: "English",
-  mr: "Marathi",
-};
-
-const LEVEL_LABELS: Record<string, string> = {
-  Beginner: "Beginner",
-  Advanced: "Advanced",
-};
-
-const CATEGORY_OPTIONS = [
-  "Banking-Financial",
-  "Education-Learning",
-  "Health-Wellness",
-  "State-Scheme",
-  "Central-Scheme",
-];
-const LANGUAGE_OPTIONS = ["hi", "en", "mr"];
-const LEVEL_OPTIONS = ["Beginner", "Advanced"];
-
-const MainContent: React.FC = () => {
+const CoursePage: React.FC<CourseTypeProp> = ({
+  course_type = "course",
+}: CourseTypeProp) => {
   const [courses, setCourses] = useState<Course[]>([]);
   const [searchParams, setSearchParams] = useSearchParams();
   const [search, setSearch] = React.useState(searchParams.get("q") || "");
@@ -44,11 +28,6 @@ const MainContent: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [selectedLevel, setSelectedLevel] = useState<string>("");
-
-  // Result type state
-  const [resultType, setResultType] = useState<"course" | "certification">(
-    "course"
-  );
 
   const searchRequest = {
     context: {
@@ -82,7 +61,7 @@ const MainContent: React.FC = () => {
           tags: [
             {
               descriptor: { name: "search-type" },
-              list: [{ value: resultType }],
+              list: [{ value: course_type }],
             },
           ],
         },
@@ -174,6 +153,31 @@ const MainContent: React.FC = () => {
     });
   }, [courses, selectedLanguage, selectedCategory, selectedLevel]);
 
+  // Helper function to find a specific tag value from a course
+  const getTagValue = (course: Course, code: string): string | undefined => {
+    return course.tags
+      ?.flatMap((tag) => tag.list)
+      .find((item) => item.descriptor.code === code)?.value;
+  };
+
+  // Add this block right after your 'filteredCourses' useMemo
+  const groupedCourses = useMemo(() => {
+    // The 'reduce' function is perfect for grouping arrays
+    return filteredCourses.reduce((acc, course) => {
+      // Find the main course name for grouping
+      const courseName = getTagValue(course, "course-name") || "Uncategorized";
+
+      // If this course name isn't a key in our accumulator object yet, create it
+      if (!acc[courseName]) {
+        acc[courseName] = [];
+      }
+
+      // Push the current course into the correct group
+      acc[courseName].push(course);
+      return acc;
+    }, {} as Record<string, Course[]>); // The initial value is an empty object
+  }, [filteredCourses]);
+
   // Handle form submit: update URL query param
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -185,27 +189,14 @@ const MainContent: React.FC = () => {
     <main className="flex-1 h-svh bg-gray-50/50 p-6 sm:p-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800">
-            ONDC/ONEST Skilling BAP Client
-          </h2>
-          <button className="bg-teal-500 text-white rounded-lg p-2 hover:bg-teal-600 transition-colors">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-              />
-            </svg>
-          </button>
-        </div>
+
+        <h2 className="text-2xl font-semibold text-gray-800">
+          ONDC/ONEST Skilling BAP Client
+        </h2>
+
+        <h2 className="text-2xl mt-5 mb-5 font-semibold text-gray-400">
+          Search for {course_type}s:-
+        </h2>
 
         {/* Progress Bar */}
         {loading && (
@@ -221,44 +212,17 @@ const MainContent: React.FC = () => {
         <div className="bg-white p-4 rounded-xl border border-gray-200">
           <form onSubmit={handleSubmit}>
             <div className="relative mb-4 flex items-center">
-              {/* Button group for result type */}
-              <div className="mr-3 flex">
-                <button
-                  type="button"
-                  className={`px-3 py-2 rounded-l-md border border-gray-300 text-sm font-medium ${
-                    resultType === "course"
-                      ? "bg-teal-500 text-white"
-                      : "bg-white text-gray-700"
-                  }`}
-                  onClick={() => {
-                    setResultType("course");
-                    setSearch("");
-                  }}
-                >
-                  Course
-                </button>
-                <button
-                  type="button"
-                  className={`px-3 py-2 rounded-r-md border-t border-b border-r border-gray-300 text-sm font-medium ${
-                    resultType === "certification"
-                      ? "bg-teal-500 text-white"
-                      : "bg-white text-gray-700"
-                  }`}
-                  onClick={() => {
-                    setResultType("certification");
-                    setSearch("");
-                  }}
-                >
-                  Certification
-                </button>
-              </div>
               <div className="flex-1 relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <SearchIcon />
                 </div>
                 <input
                   type="text"
-                  placeholder="Search for Skilling Modules & Courses..."
+                  placeholder={
+                    course_type == "course"
+                      ? "Search for Skilling Modules & Courses..."
+                      : "Search for Certifications..."
+                  }
                   className="w-full py-2.5 pl-10 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
@@ -307,21 +271,42 @@ const MainContent: React.FC = () => {
         </div>
 
         {/* Courses Grid */}
+        {/* Courses Grid - New Grouped Layout */}
         {loading ? (
-          // Show nothing below the progress bar while loading
-          <></>
-        ) : courses.length === 0 ? (
-          <center className="mt-4 text-2xl">No Courses Found!</center>
+          <></> // Show nothing while loading
+        ) : Object.keys(groupedCourses).length === 0 ? (
+          <center className="mt-8 text-2xl text-gray-500">
+            No Courses Found!
+          </center>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
-            {filteredCourses.map((course) => (
-              <CourseCard
-                key={course.id}
-                course={course}
-                categoryLabels={CATEGORY_LABELS}
-                languageLabels={LANGUAGE_LABELS}
-              />
-            ))}
+          <div className="space-y-12 mt-8">
+            {/* Loop through the grouped courses object */}
+            {Object.entries(groupedCourses).map(
+              ([courseName, coursesInGroup]) => (
+                <div key={courseName}>
+                  {/* Render the main course name as a title for the group */}
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-gray-200">
+                    {courseName}
+                  </h3>
+
+                  <div className="flex overflow-x-auto space-x-6 pb-4">
+                    {coursesInGroup.map((courseItem) => (
+                      // Wrapper to control the size of the card in the flex row
+                      <div
+                        key={courseItem.id}
+                        className="flex-shrink-0 w-80 md:w-96"
+                      >
+                        <CourseCard
+                          course={courseItem}
+                          categoryLabels={CATEGORY_LABELS}
+                          languageLabels={LANGUAGE_LABELS}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )
+            )}
           </div>
         )}
       </div>
@@ -329,4 +314,4 @@ const MainContent: React.FC = () => {
   );
 };
 
-export default MainContent;
+export default CoursePage;

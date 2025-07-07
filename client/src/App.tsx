@@ -1,6 +1,11 @@
 import Sidebar from "./components/Sidebar";
-import MainContent from "./components/MainContent";
+import AnalyticsPage from "./pages/AnalyticsPage";
+import CoursePage from "./pages/CoursePage";
+import DocsPage from "./pages/DocsPage";
+import HelpPage from "./pages/HelpPage";
+import AboutPage from "./pages/AboutPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import CertificationPage from "./pages/CertificationPage";
 
 // --- Components ---
 export default function App() {
@@ -8,9 +13,16 @@ export default function App() {
     <Router>
       <div className="flex min-h-screen font-sans">
         <Sidebar />
-        <Routes>
-          <Route path="/" element={<MainContent />}></Route>
-        </Routes>
+        <div className="flex-1">
+          <Routes>
+            <Route path="/" element={<CoursePage />} />
+            <Route path="/certifications" element={<CertificationPage />} />
+            <Route path="/analytics" element={<AnalyticsPage />} />
+            <Route path="/docs" element={<DocsPage />} />
+            <Route path="/help" element={<HelpPage />} />
+            <Route path="/about" element={<AboutPage />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
