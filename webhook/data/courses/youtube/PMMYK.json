@@ -87,6 +87,13 @@
             "name": "Course Type"
           },
           "value": "video + assignment"
+        },
+        {
+          "descriptor": {
+            "code": "course-name",
+            "name": "Course Name"
+          },
+          "value": "Atal Pension Yojana (APY) Enrollment Specialist"
         }
       ],
       "display": true
