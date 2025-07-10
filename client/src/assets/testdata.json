@@ -1,6 +1,196 @@
 [
   {
-    "id": "COURSE-APY-002",
+    "id": "COURSE-APY-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Atal Pension Yojana (APY) Enrollment Assignment",
+      "short_desc": "Assignment: Demonstrate the APY enrollment process for a worker and document your steps and reflections.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment asks you to apply your knowledge of the Atal Pension Yojana (APY) by simulating or assisting with the enrollment of a worker in the scheme. You should document each step, from verifying eligibility to completing the auto-debit setup for monthly contributions.</p><ol><li><strong>Task:</strong><br>Guide a hypothetical or real worker through APY enrollment, ensuring all requirements are met and the appropriate pension amount is selected.</li><li><strong>Documentation:</strong><br>Record the process, note any challenges and solutions, and include screenshots or filled forms if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of APY for unorganized sector workers and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Strengthen your practical understanding of APY procedures.</li><li>Prepare to help others access government pension schemes.</li><li>Gain real-world experience as a financial advisor or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Workers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-pension-pro",
+              "name": "Pension Pro Cert"
+            },
+            "value": "Certified Pension Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-APY-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Atal Pension Yojana (APY) Enrollment Assignment",
+      "short_desc": "Assignment: Apply your knowledge to enroll a worker in the Atal Pension Yojana (APY) and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to demonstrate your understanding of the Atal Pension Yojana (APY) by guiding a hypothetical or real unorganized sector worker through the enrollment process. You will document each step, from eligibility verification to setting up the auto-debit facility for monthly contributions.</p><ol><li><strong>Task:</strong><br>Simulate or assist with the enrollment of a worker in APY, ensuring all eligibility criteria are met and the correct pension amount is chosen.</li><li><strong>Documentation:</strong><br>Record the steps taken, challenges faced, and solutions provided during the enrollment process. Include screenshots or forms where possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of APY for unorganized sector workers and how this assignment enhanced your understanding of the scheme.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of APY enrollment procedures.</li><li>Develop the ability to assist others in accessing government pension schemes.</li><li>Prepare for real-world scenarios as a financial advisor or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Workers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-pension-pro",
+              "name": "Pension Pro Cert"
+            },
+            "value": "Certified Pension Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-APY-001-VIDEO",
     "quantity": { "maximum": { "count": 1 } },
     "descriptor": {
       "name": "Atal Pension Yojana (APY) Enrollment Specialist",
@@ -93,7 +283,183 @@
     ]
   },
   {
-    "id": "COURSE-BJB-PLI-001",
+    "id": "COURSE-BJB-PLI-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Bal Jeevan Bima (PLI) Assignment",
+      "short_desc": "Assignment: Guide a parent through the Bal Jeevan Bima (PLI) application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Bal Jeevan Bima (PLI) scheme by simulating or assisting a parent in applying for the policy for their child. Document each step, from eligibility check to application submission and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical parent through the Bal Jeevan Bima (PLI) application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of children's insurance and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of Bal Jeevan Bima (PLI) procedures.</li><li>Develop the ability to assist others in accessing insurance schemes.</li><li>Prepare for real-world scenarios as a community facilitator or insurance advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.6",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Insurance"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Children"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-pli-advisor",
+              "name": "PLI Advisor Cert"
+            },
+            "value": "Certified Postal Life Insurance Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-BJB-PLI-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Bal Jeevan Bima (PLI) Assignment",
+      "short_desc": "Assignment: Guide a parent through the Bal Jeevan Bima (PLI) application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Bal Jeevan Bima (PLI) scheme by simulating or assisting a parent in applying for the policy for their child. Document each step, from eligibility check to application submission and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical parent through the Bal Jeevan Bima (PLI) application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of children's insurance and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of Bal Jeevan Bima (PLI) procedures.</li><li>Develop the ability to assist others in accessing insurance schemes.</li><li>Prepare for real-world scenarios as a community facilitator or insurance advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.6",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Insurance"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Children"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-pli-advisor",
+              "name": "PLI Advisor Cert"
+            },
+            "value": "Certified Postal Life Insurance Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-BJB-PLI-001-VIDEO",
     "quantity": { "maximum": { "count": 1 } },
     "descriptor": {
       "name": "Bal Jeevan Bima (PLI) Enrollment Guide",
@@ -179,7 +545,183 @@
     ]
   },
   {
-    "id": "COURSE-DASIM-001",
+    "id": "COURSE-DASIM-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Dr. Ambedkar Inter-Caste Marriage Scheme Assignment",
+      "short_desc": "Assignment: Guide a couple through the Dr. Ambedkar Inter-Caste Marriage Scheme application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Dr. Ambedkar Inter-Caste Marriage Scheme by simulating or assisting a couple in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical couple through the application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of social integration schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of the scheme's procedures.</li><li>Develop the ability to assist others in accessing social welfare schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Incentive"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Couples"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Dr. Ambedkar Inter-Caste Marriage Scheme Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-social-welfare",
+              "name": "Social Welfare Cert"
+            },
+            "value": "Social Welfare Program Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-DASIM-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Dr. Ambedkar Inter-Caste Marriage Scheme Assignment",
+      "short_desc": "Assignment: Guide a couple through the Dr. Ambedkar Inter-Caste Marriage Scheme application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Dr. Ambedkar Inter-Caste Marriage Scheme by simulating or assisting a couple in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical couple through the application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of social integration schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of the scheme's procedures.</li><li>Develop the ability to assist others in accessing social welfare schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Incentive"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Couples"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Dr. Ambedkar Inter-Caste Marriage Scheme Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-social-welfare",
+              "name": "Social Welfare Cert"
+            },
+            "value": "Social Welfare Program Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-DASIM-001-VIDEO",
     "quantity": { "maximum": { "count": 1 } },
     "descriptor": {
       "name": "Dr. Ambedkar Inter-Caste Marriage Scheme Guide",
@@ -242,7 +784,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
+            "value": "Dr. Ambedkar Inter-Caste Marriage Scheme Guide"
           }
         ],
         "display": true
@@ -259,6 +801,196 @@
               "name": "Social Welfare Cert"
             },
             "value": "Social Welfare Program Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-IGNDP-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Indira Gandhi National Disability Pension (IGNDP) Assignment",
+      "short_desc": "Assignment: Guide a beneficiary through IGNDPS application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Indira Gandhi National Disability Pension Scheme (IGNDPS) by simulating or assisting a beneficiary in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the IGNDPS application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of disability pension schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of IGNDPS procedures.</li><li>Develop the ability to assist others in accessing social security schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Disabled"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Indira Gandhi National Disability Pension (IGNDP) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-disability-welfare",
+              "name": "Disability Welfare Cert"
+            },
+            "value": "Disability Welfare Program Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-IGNDP-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Indira Gandhi National Disability Pension (IGNDP) Assignment",
+      "short_desc": "Assignment: Guide a beneficiary through IGNDPS application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Indira Gandhi National Disability Pension Scheme (IGNDPS) by simulating or assisting a beneficiary in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the IGNDPS application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of disability pension schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of IGNDPS procedures.</li><li>Develop the ability to assist others in accessing social security schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Disabled"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Indira Gandhi National Disability Pension (IGNDP) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-disability-welfare",
+              "name": "Disability Welfare Cert"
+            },
+            "value": "Disability Welfare Program Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
           }
         ]
       }
@@ -328,7 +1060,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
+            "value": "Indira Gandhi National Disability Pension (IGNDP) Guide"
           }
         ],
         "display": true
@@ -345,6 +1077,291 @@
               "name": "Disability Welfare Cert"
             },
             "value": "Disability Welfare Program Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-IGNWPS-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Assignment",
+      "short_desc": "Assignment: Guide a widow through IGNWPS application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Indira Gandhi National Widow Pension Scheme (IGNWPS) by simulating or assisting a beneficiary in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the IGNWPS application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of widow pension schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of IGNWPS procedures.</li><li>Develop the ability to assist others in accessing social security schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-IGNWPS-003-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Assignment",
+      "short_desc": "Assignment: Guide a widow through IGNWPS application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Indira Gandhi National Widow Pension Scheme (IGNWPS) by simulating or assisting a beneficiary in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the IGNWPS application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of widow pension schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of IGNWPS procedures.</li><li>Develop the ability to assist others in accessing social security schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
+          },
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-IGNWPS-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Assignment",
+      "short_desc": "Assignment: Guide a widow through IGNWPS application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Indira Gandhi National Widow Pension Scheme (IGNWPS) by simulating or assisting a beneficiary in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the IGNWPS application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of widow pension schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of IGNWPS procedures.</li><li>Develop the ability to assist others in accessing social security schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Pension"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
           },
           {
             "descriptor": {
@@ -421,7 +1438,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+            "value": "Indira Gandhi National Widow Pension Scheme (IGNWPS) Guide"
           }
         ],
         "display": true
@@ -445,6 +1462,196 @@
               "name": "Social Security Cert"
             },
             "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-JSY-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Janani Suraksha Yojana (JSY) Application Assignment",
+      "short_desc": "Assignment: Simulate or assist a JSY beneficiary and document the institutional delivery support process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment asks you to apply your knowledge of the Janani Suraksha Yojana (JSY) by guiding a real or hypothetical pregnant woman through the process of availing JSY benefits. Document each step, from eligibility check to benefit disbursement and ASHA worker involvement.</p><ol><li><strong>Task:</strong><br>Guide a beneficiary through the JSY application and institutional delivery process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the impact of JSY on maternal and neonatal health and your learnings from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Strengthen your practical understanding of JSY procedures.</li><li>Prepare to assist others in accessing safe childbirth support.</li><li>Gain real-world experience as a health worker or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Maternity"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Janani Suraksha Yojana (JSY) Application Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-maternal-health",
+              "name": "Maternal Health Cert"
+            },
+            "value": "Maternal Health Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-asha-facilitator",
+              "name": "ASHA Facilitator Cert"
+            },
+            "value": "Certified ASHA Scheme Facilitator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-JSY-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Janani Suraksha Yojana (JSY) Application Assignment",
+      "short_desc": "Assignment: Simulate or assist a JSY beneficiary and document the institutional delivery support process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment asks you to apply your knowledge of the Janani Suraksha Yojana (JSY) by guiding a real or hypothetical pregnant woman through the process of availing JSY benefits. Document each step, from eligibility check to benefit disbursement and ASHA worker involvement.</p><ol><li><strong>Task:</strong><br>Guide a beneficiary through the JSY application and institutional delivery process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the impact of JSY on maternal and neonatal health and your learnings from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Strengthen your practical understanding of JSY procedures.</li><li>Prepare to assist others in accessing safe childbirth support.</li><li>Gain real-world experience as a health worker or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Maternity"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Janani Suraksha Yojana (JSY) Application Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-maternal-health",
+              "name": "Maternal Health Cert"
+            },
+            "value": "Maternal Health Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-asha-facilitator",
+              "name": "ASHA Facilitator Cert"
+            },
+            "value": "Certified ASHA Scheme Facilitator"
           }
         ]
       }
@@ -514,7 +1721,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+            "value": "Janani Suraksha Yojana (JSY) Application Guide"
           }
         ],
         "display": true
@@ -538,6 +1745,196 @@
               "name": "ASHA Facilitator Cert"
             },
             "value": "Certified ASHA Scheme Facilitator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMJDY-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Assignment",
+      "short_desc": "Assignment: Guide a citizen through PMJDY account opening and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Jan Dhan Yojana (PMJDY) by simulating or assisting a citizen in opening a PMJDY account. Document each step, from eligibility check to account activation and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMJDY account opening process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of financial inclusion and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMJDY procedures.</li><li>Develop the ability to assist others in accessing banking services.</li><li>Prepare for real-world scenarios as a financial advisor or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.9",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Banking"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Citizens"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-financial-inclusion",
+              "name": "Financial Inclusion Cert"
+            },
+            "value": "Financial Inclusion Specialist"
+          },
+          {
+            "descriptor": {
+              "code": "cert-pm-yojana",
+              "name": "PM Yojana Cert"
+            },
+            "value": "Pradhan Mantri Yojana Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMJDY-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Assignment",
+      "short_desc": "Assignment: Guide a citizen through PMJDY account opening and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Jan Dhan Yojana (PMJDY) by simulating or assisting a citizen in opening a PMJDY account. Document each step, from eligibility check to account activation and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMJDY account opening process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of financial inclusion and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMJDY procedures.</li><li>Develop the ability to assist others in accessing banking services.</li><li>Prepare for real-world scenarios as a financial advisor or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.9",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Banking"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Citizens"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-financial-inclusion",
+              "name": "Financial Inclusion Cert"
+            },
+            "value": "Financial Inclusion Specialist"
+          },
+          {
+            "descriptor": {
+              "code": "cert-pm-yojana",
+              "name": "PM Yojana Cert"
+            },
+            "value": "Pradhan Mantri Yojana Advisor"
           }
         ]
       }
@@ -607,7 +2004,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+            "value": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Enrollment Guide"
           }
         ],
         "display": true
@@ -631,6 +2028,196 @@
               "name": "PM Yojana Cert"
             },
             "value": "Pradhan Mantri Yojana Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMVY-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Assignment",
+      "short_desc": "Assignment: Guide a beneficiary through the PMMVY application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Matru Vandana Yojana (PMMVY) by simulating or assisting a pregnant or lactating woman in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMMVY application process, ensuring all eligibility and documentation requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps taken, challenges faced, and solutions provided. Include screenshots or filled forms if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of PMMVY for maternal and child health and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMVY procedures.</li><li>Develop the ability to assist others in accessing maternity benefit schemes.</li><li>Prepare for real-world scenarios as a community facilitator or health worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Maternity"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-maternal-health",
+              "name": "Maternal Health Cert"
+            },
+            "value": "Maternal Health Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMVY-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Assignment",
+      "short_desc": "Assignment: Guide a beneficiary through the PMMVY application and document the process and learnings.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Matru Vandana Yojana (PMMVY) by simulating or assisting a pregnant or lactating woman in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMMVY application process, ensuring all eligibility and documentation requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps taken, challenges faced, and solutions provided. Include screenshots or filled forms if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of PMMVY for maternal and child health and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMVY procedures.</li><li>Develop the ability to assist others in accessing maternity benefit schemes.</li><li>Prepare for real-world scenarios as a community facilitator or health worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Maternity"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-maternal-health",
+              "name": "Maternal Health Cert"
+            },
+            "value": "Maternal Health Scheme Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
           }
         ]
       }
@@ -700,7 +2287,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+            "value": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Guide"
           }
         ],
         "display": true
@@ -724,6 +2311,196 @@
               "name": "Women Welfare Cert"
             },
             "value": "Women's Welfare Scheme Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYK-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Kishore) Assignment",
+      "short_desc": "Assignment: Guide an entrepreneur through the PMMY Kishore loan application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Mudra Yojana (Kishore) by simulating or assisting an entrepreneur in applying for a Kishore loan. Document each step, from eligibility check to application submission and loan disbursement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical entrepreneur through the Kishore loan application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of business loans for MSMEs and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMY Kishore procedures.</li><li>Develop the ability to assist others in accessing business finance.</li><li>Prepare for real-world scenarios as a financial advisor or business consultant.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Intermediate"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Mudra Yojana (Kishore) Loan Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-msme-finance",
+              "name": "MSME Finance Cert"
+            },
+            "value": "MSME Finance Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYK-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Kishore) Assignment",
+      "short_desc": "Assignment: Guide an entrepreneur through the PMMY Kishore loan application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Mudra Yojana (Kishore) by simulating or assisting an entrepreneur in applying for a Kishore loan. Document each step, from eligibility check to application submission and loan disbursement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical entrepreneur through the Kishore loan application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of business loans for MSMEs and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMY Kishore procedures.</li><li>Develop the ability to assist others in accessing business finance.</li><li>Prepare for real-world scenarios as a financial advisor or business consultant.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Intermediate"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Mudra Yojana (Kishore) Loan Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-msme-finance",
+              "name": "MSME Finance Cert"
+            },
+            "value": "MSME Finance Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
           }
         ]
       }
@@ -793,7 +2570,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+            "value": "Pradhan Mantri Mudra Yojana (Kishore) Loan Guide"
           }
         ],
         "display": true
@@ -810,6 +2587,196 @@
               "name": "MSME Finance Cert"
             },
             "value": "MSME Finance Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYS-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Shishu) Assignment",
+      "short_desc": "Assignment: Guide an aspiring entrepreneur through the PMMY Shishu loan application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Mudra Yojana (Shishu) by simulating or assisting an aspiring entrepreneur in applying for a Shishu loan. Document each step, from eligibility check to application submission and loan disbursement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the Shishu loan application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of microfinance for grassroots entrepreneurship and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMY Shishu procedures.</li><li>Develop the ability to assist others in accessing microfinance.</li><li>Prepare for real-world scenarios as a financial advisor or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Mudra Yojana (Shishu) Loan Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-micro-finance",
+              "name": "Micro Finance Cert"
+            },
+            "value": "Micro Finance Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYS-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Shishu) Assignment",
+      "short_desc": "Assignment: Guide an aspiring entrepreneur through the PMMY Shishu loan application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Mudra Yojana (Shishu) by simulating or assisting an aspiring entrepreneur in applying for a Shishu loan. Document each step, from eligibility check to application submission and loan disbursement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the Shishu loan application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of microfinance for grassroots entrepreneurship and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMY Shishu procedures.</li><li>Develop the ability to assist others in accessing microfinance.</li><li>Prepare for real-world scenarios as a financial advisor or community facilitator.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Mudra Yojana (Shishu) Loan Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-micro-finance",
+              "name": "Micro Finance Cert"
+            },
+            "value": "Micro Finance Advisor"
           },
           {
             "descriptor": {
@@ -886,7 +2853,7 @@
           },
           {
             "descriptor": { "code": "course-name", "name": "Course Name" },
-            "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+            "value": "Pradhan Mantri Mudra Yojana (Shishu) Loan Guide"
           }
         ],
         "display": true
@@ -910,6 +2877,1379 @@
               "name": "Mudra Yojana Cert"
             },
             "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYT-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Tarun) Assignment",
+      "short_desc": "Assignment: Guide an entrepreneur through the PMMY Tarun loan application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Mudra Yojana (Tarun) by simulating or assisting an entrepreneur in applying for a Tarun loan. Document each step, from eligibility check to application submission and loan disbursement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical entrepreneur through the Tarun loan application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of business loans for MSMEs and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMY Tarun procedures.</li><li>Develop the ability to assist others in accessing business finance.</li><li>Prepare for real-world scenarios as a financial advisor or business consultant.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Advanced"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Mudra Yojana (Tarun) Loan Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-sme-finance",
+              "name": "SME Finance Cert"
+            },
+            "value": "SME Finance Professional"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYT-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Tarun) Assignment",
+      "short_desc": "Assignment: Guide an entrepreneur through the PMMY Tarun loan application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Mudra Yojana (Tarun) by simulating or assisting an entrepreneur in applying for a Tarun loan. Document each step, from eligibility check to application submission and loan disbursement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical entrepreneur through the Tarun loan application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of business loans for MSMEs and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMY Tarun procedures.</li><li>Develop the ability to assist others in accessing business finance.</li><li>Prepare for real-world scenarios as a financial advisor or business consultant.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Advanced"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Mudra Yojana (Tarun) Loan Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-sme-finance",
+              "name": "SME Finance Cert"
+            },
+            "value": "SME Finance Professional"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMMYT-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Mudra Yojana (Tarun) Loan Guide",
+      "short_desc": "A course on securing business loans from ₹5 lakh to ₹10 lakh under the PMMY Tarun category for established enterprises.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module covers the 'Tarun' category of the Pradhan Mantri Mudra Yojana (PMMY), the highest tier of loans for established businesses. Agents will learn how to guide successful entrepreneurs in securing significant funding for major business expansion or diversification.</p><ol><li><strong>Loan Details:</strong><br>Understand the specifics of the Tarun loan, which ranges from ₹5,00,001 to ₹10,00,000. These funds are intended for purchasing heavy machinery, acquiring property, or significant scaling of business operations.</li><li><strong>Eligibility and Documentation:</strong><br>Master the stringent eligibility criteria for established businesses. Learn about the comprehensive documentation required, including business registration, financial statements for previous years, a detailed project report, and KYC of the promoters.</li><li><strong>Application & Appraisal Process:</strong><br>Learn the formal application and credit appraisal process followed by lending institutions for Tarun loans. This includes understanding how banks assess the financial health and future viability of the business before sanctioning the loan.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Play a role in the growth story of successful small and medium enterprises.</li><li>Specialize in high-value business financing under a flagship government scheme.</li><li>Become a trusted financial consultant for established entrepreneurs looking to scale up.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/pv--bQeO87c/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Advanced"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Loan"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Entrepreneurs"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Mudra Yojana (Tarun) Loan Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-sme-finance",
+              "name": "SME Finance Cert"
+            },
+            "value": "SME Finance Professional"
+          },
+          {
+            "descriptor": {
+              "code": "cert-mudra-yojana",
+              "name": "Mudra Yojana Cert"
+            },
+            "value": "Certified Mudra Yojana Consultant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-SBMG-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Swachh Bharat Mission - Gramin (SBM-G) Assignment",
+      "short_desc": "Assignment: Guide a village through SBM-G ODF-Plus and waste management implementation and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Swachh Bharat Mission - Gramin (SBM-G) by simulating or assisting a village in achieving ODF-Plus status and implementing waste management. Document each step, from planning to execution and community involvement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical village through the SBM-G implementation process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of rural sanitation and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of SBM-G procedures.</li><li>Develop the ability to assist others in rural sanitation initiatives.</li><li>Prepare for real-world scenarios as a community facilitator or sanitation advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.9",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Sanitation"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Villagers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Swachh Bharat Mission - Gramin (SBM-G) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-rural-sanitation",
+              "name": "Rural Sanitation Cert"
+            },
+            "value": "Rural Sanitation Program Manager"
+          },
+          {
+            "descriptor": {
+              "code": "cert-waste-mgmt",
+              "name": "Waste Management Cert"
+            },
+            "value": "Solid & Liquid Waste Management Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-SBMG-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Swachh Bharat Mission - Gramin (SBM-G) Assignment",
+      "short_desc": "Assignment: Guide a village through SBM-G ODF-Plus and waste management implementation and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Swachh Bharat Mission - Gramin (SBM-G) by simulating or assisting a village in achieving ODF-Plus status and implementing waste management. Document each step, from planning to execution and community involvement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical village through the SBM-G implementation process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of rural sanitation and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of SBM-G procedures.</li><li>Develop the ability to assist others in rural sanitation initiatives.</li><li>Prepare for real-world scenarios as a community facilitator or sanitation advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.9",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Sanitation"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Villagers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Swachh Bharat Mission - Gramin (SBM-G) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-rural-sanitation",
+              "name": "Rural Sanitation Cert"
+            },
+            "value": "Rural Sanitation Program Manager"
+          },
+          {
+            "descriptor": {
+              "code": "cert-waste-mgmt",
+              "name": "Waste Management Cert"
+            },
+            "value": "Solid & Liquid Waste Management Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-SBMG-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Swachh Bharat Mission - Gramin (SBM-G) Guide",
+      "short_desc": "A course on implementing ODF-Plus and waste management components of SBM-Gramin Phase II.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module explains the Swachh Bharat Mission - Gramin (SBM-G), focusing on its Phase II objectives. Agents will learn about the national goal to make rural India Open Defecation Free (ODF) Plus, which includes sustaining the ODF status and implementing comprehensive Solid and Liquid Waste Management (SLWM).</p><ol><li><strong>ODF-Plus Components:</strong><br>Understand the key elements of ODF-Plus, including biodegradable waste management (composting), plastic waste management, greywater management, and fecal sludge management to ensure villages are visually clean.</li><li><strong>Financial Incentives:</strong><br>Learn about the financial support structure, including the incentive of up to ₹12,000 for the construction of Individual Household Latrines (IHHL) for eligible rural households and funding for community-level waste management assets.</li><li><strong>Implementation & Roles:</strong><br>Master the community-led implementation process, understanding the roles of Gram Panchayats, Swachhagrahis, and individual citizens in achieving and sustaining the ODF-Plus status of their village.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Contribute to creating a cleaner, healthier, and more sustainable rural environment.</li><li>Specialize in India's largest rural sanitation program.</li><li>Empower communities to take charge of their village's cleanliness and hygiene.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/DdhgqQKqzjA/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.9",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Sanitation"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Villagers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P3H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video + assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Swachh Bharat Mission - Gramin (SBM-G) Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-rural-sanitation",
+              "name": "Rural Sanitation Cert"
+            },
+            "value": "Rural Sanitation Program Manager"
+          },
+          {
+            "descriptor": {
+              "code": "cert-waste-mgmt",
+              "name": "Waste Management Cert"
+            },
+            "value": "Solid & Liquid Waste Management Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-SHC-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Soil Health Card Scheme Assignment",
+      "short_desc": "Assignment: Guide a farmer through the Soil Health Card application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Soil Health Card (SHC) scheme by simulating or assisting a farmer in obtaining and understanding their Soil Health Card. Document each step, from eligibility check to application and interpretation of the card.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical farmer through the SHC application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of soil health and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of SHC procedures.</li><li>Develop the ability to assist others in accessing agricultural schemes.</li><li>Prepare for real-world scenarios as a community facilitator or agri-advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Education-Learning"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Advisory"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Farmers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Soil Health Card Scheme Advisory Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-agri-advisor",
+              "name": "Agri Advisor Cert"
+            },
+            "value": "Certified Agriculture Input Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-SHC-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Soil Health Card Scheme Assignment",
+      "short_desc": "Assignment: Guide a farmer through the Soil Health Card application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Soil Health Card (SHC) scheme by simulating or assisting a farmer in obtaining and understanding their Soil Health Card. Document each step, from eligibility check to application and interpretation of the card.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical farmer through the SHC application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of soil health and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of SHC procedures.</li><li>Develop the ability to assist others in accessing agricultural schemes.</li><li>Prepare for real-world scenarios as a community facilitator or agri-advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Education-Learning"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Advisory"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Farmers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Soil Health Card Scheme Advisory Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-agri-advisor",
+              "name": "Agri Advisor Cert"
+            },
+            "value": "Certified Agriculture Input Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-SHC-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Soil Health Card Scheme Advisory Guide",
+      "short_desc": "A course on how to assist farmers in obtaining and understanding their Soil Health Card for improved crop yields and soil fertility.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module provides a comprehensive guide to the Soil Health Card (SHC) scheme, a Government of India initiative to promote balanced nutrient management. Agents will learn how the scheme works, its benefits, and how to help farmers use the card to improve soil health and increase productivity.</p><ol><li><strong>Scheme Objective:</strong><br>Understand the core purpose of the scheme: to issue a 'health card' for a farmer's soil, detailing its nutrient status and providing customized recommendations on fertilizers and amendments needed to improve fertility.</li><li><strong>Parameters and Recommendations:</strong><br>Learn about the 12 key parameters (like N, P, K, pH, EC) tested in the soil samples. Understand how to interpret the SHC report and explain the specific nutrient and fertilizer recommendations to farmers for their chosen crops.</li><li><strong>Implementation Process:</strong><br>Master the process of how soil samples are collected by state agriculture departments, tested in labs, and how the final cards are generated and distributed to farmers, typically once every two years.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Help farmers reduce cultivation costs by encouraging the balanced use of fertilizers.</li><li>Play a crucial role in promoting sustainable agriculture and improving long-term soil health.</li><li>Become a key advisor in your community for scientific farming practices.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/XtsXCRp9-GM/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Education-Learning"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Advisory"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Farmers"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Soil Health Card Scheme Advisory Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-agri-advisor",
+              "name": "Agri Advisor Cert"
+            },
+            "value": "Certified Agriculture Input Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMSBY-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) Assignment",
+      "short_desc": "Assignment: Guide a citizen through PMSBY accidental insurance enrollment and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Suraksha Bima Yojana (PMSBY) by simulating or assisting a citizen in enrolling for the accidental insurance scheme. Document each step, from eligibility check to enrollment and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMSBY enrollment process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of PMSBY for financial security and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMSBY procedures.</li><li>Develop the ability to assist others in accessing insurance schemes.</li><li>Prepare for real-world scenarios as a community facilitator or insurance advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Insurance"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Citizens"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMSBY-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) Assignment",
+      "short_desc": "Assignment: Guide a citizen through PMSBY accidental insurance enrollment and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Suraksha Bima Yojana (PMSBY) by simulating or assisting a citizen in enrolling for the accidental insurance scheme. Document each step, from eligibility check to enrollment and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMSBY enrollment process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of PMSBY for financial security and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMSBY procedures.</li><li>Develop the ability to assist others in accessing insurance schemes.</li><li>Prepare for real-world scenarios as a community facilitator or insurance advisor.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Insurance"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Citizens"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMSBY-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) Enrollment Guide",
+      "short_desc": "A course on helping citizens enroll in the government's low-cost accidental insurance scheme, PMSBY.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module provides a complete guide to the Pradhan Mantri Suraksha Bima Yojana (PMSBY), a government-backed accident insurance scheme. Agents will learn the scheme's features, benefits, and the simple enrollment process to help citizens secure vital financial protection against unforeseen accidents.</p><ol><li><strong>Scheme Benefits & Premium:</strong><br>Understand the insurance coverage: ₹2 Lakh for accidental death or total permanent disability, and ₹1 Lakh for partial permanent disability, all for a nominal annual premium of just ₹20.</li><li><strong>Eligibility Criteria:</strong><br>Master the straightforward eligibility rules. Any Indian citizen between the ages of 18 and 70 with a savings bank account is eligible to join this scheme.</li><li><strong>Enrollment Process:</strong><br>Learn the auto-debit enrollment process. The premium is automatically deducted from the subscriber's bank account, making it a hassle-free way to maintain coverage.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Provide a crucial financial safety net to citizens, especially those in the unorganized sector.</li><li>Specialize in a high-volume, high-impact national social security scheme.</li><li>Help citizens secure their family's future with an affordable and accessible insurance product.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/ldjpOQtBpF0/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Banking-Financial"],
+    "rating": "4.7",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Insurance"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Citizens"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P1H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video + assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) Enrollment Guide"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-social-security",
+              "name": "Social Security Cert"
+            },
+            "value": "Social Security Scheme Advisor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMUY-002-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Ujjwala Yojana (PMUY) Assignment",
+      "short_desc": "Assignment: Guide a beneficiary through the PMUY LPG connection application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Ujjwala Yojana (PMUY) by simulating or assisting a woman from a deprived household in applying for a deposit-free LPG connection. Document each step, from eligibility check to application submission and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMUY application process, ensuring all eligibility and documentation requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps taken, challenges faced, and solutions provided. Include screenshots or filled forms if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of PMUY for women's health and empowerment and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMUY procedures.</li><li>Develop the ability to assist others in accessing clean cooking fuel schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Welfare"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Ujjwala Yojana (PMUY) Enrollment Advisor"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-clean-energy",
+              "name": "Clean Energy Cert"
+            },
+            "value": "Clean Energy Program Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMUY-001-ASSIGNMENT",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Ujjwala Yojana (PMUY) Assignment",
+      "short_desc": "Assignment: Guide a beneficiary through the PMUY LPG connection application and document the process.",
+      "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Ujjwala Yojana (PMUY) by simulating or assisting a woman from a deprived household in applying for a deposit-free LPG connection. Document each step, from eligibility check to application submission and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMUY application process, ensuring all eligibility and documentation requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps taken, challenges faced, and solutions provided. Include screenshots or filled forms if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of PMUY for women's health and empowerment and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMUY procedures.</li><li>Develop the ability to assist others in accessing clean cooking fuel schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
+      "images": [
+        {
+          "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
+        }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Welfare"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "assignment"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Ujjwala Yojana (PMUY) Enrollment Advisor"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-clean-energy",
+              "name": "Clean Energy Cert"
+            },
+            "value": "Clean Energy Program Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "COURSE-PMUY-001",
+    "quantity": { "maximum": { "count": 1 } },
+    "descriptor": {
+      "name": "Pradhan Mantri Ujjwala Yojana (PMUY) Enrollment Advisor",
+      "short_desc": "Learn to guide women from deprived households in applying for a deposit-free LPG connection under the PM Ujjwala Yojana.",
+      "long_desc": "<p><strong>Course Overview:</strong><br>This module offers a complete guide to the Pradhan Mantri Ujjwala Yojana (PMUY), a flagship scheme by the Ministry of Petroleum & Natural Gas. Agents will learn how to assist eligible women in obtaining a clean cooking fuel (LPG) connection, thereby promoting better health and empowering women.</p><ol><li><strong>Scheme Benefits:</strong><br>Understand the core benefit of a deposit-free LPG connection. This includes financial assistance of up to ₹1600 for a connection and a free first refill and stove (hot-plate).</li><li><strong>Eligibility Criteria:</strong><br>Master the eligibility requirements. The scheme is for adult women from poor households who do not have an existing LPG connection in their name or in the name of any family member.</li><li><strong>Application Process:</strong><br>Learn the online application process, which involves selecting an oil marketing company (Indane, Bharatgas, HP Gas) and submitting KYC details through the official portal.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower women from vulnerable households with access to clean cooking fuel.</li><li>Contribute to improving the health and well-being of families by reducing exposure to harmful smoke.</li><li>Specialize in a high-impact national welfare scheme.</li></ul>",
+      "images": [
+        { "url": "https://i.ytimg.com/vi/q1KqAabMOTc/maxresdefault.jpg" }
+      ],
+      "media": [{ "url": "https://www.youtube.com/watch?v=q1KqAabMOTc" }]
+    },
+    "creator": {
+      "descriptor": {
+        "name": "Haqdarshak",
+        "short_desc": "A social enterprise connecting citizens with their eligible government welfare schemes.",
+        "long_desc": "Haqdarshak is a tech platform that bridges the information and access gap between citizens and social protection services. We use an assisted-tech model with trained agents to provide last-mile support for discovering and applying for government and private welfare schemes.",
+        "images": [
+          {
+            "url": "https://brandfetch.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2Fid20s5i1a9%2Fidzj3jCO-c.png&w=1200&q=75"
+          }
+        ]
+      }
+    },
+    "price": { "currency": "INR", "value": "0" },
+    "category_ids": ["Central-Scheme", "Health-Wellness"],
+    "rating": "4.8",
+    "rateable": true,
+    "tags": [
+      {
+        "descriptor": { "code": "scheme-metadata", "name": "Scheme Metadata" },
+        "list": [
+          {
+            "descriptor": { "code": "learner-level", "name": "Learner Level" },
+            "value": "Beginner"
+          },
+          {
+            "descriptor": { "code": "scheme-type", "name": "Scheme Type" },
+            "value": "Welfare"
+          },
+          {
+            "descriptor": {
+              "code": "target-audience",
+              "name": "Target Audience"
+            },
+            "value": "Women"
+          },
+          {
+            "descriptor": { "code": "lang-code", "name": "Language" },
+            "value": "hi"
+          },
+          {
+            "descriptor": {
+              "code": "course-duration",
+              "name": "Course Duration"
+            },
+            "value": "P2H"
+          },
+          {
+            "descriptor": { "code": "course-type", "name": "Course Type" },
+            "value": "video"
+          },
+          {
+            "descriptor": { "code": "course-name", "name": "Course Name" },
+            "value": "Pradhan Mantri Ujjwala Yojana (PMUY) Enrollment Advisor"
+          }
+        ],
+        "display": true
+      },
+      {
+        "descriptor": {
+          "code": "awarded-certifications",
+          "name": "Awarded Certifications"
+        },
+        "list": [
+          {
+            "descriptor": {
+              "code": "cert-clean-energy",
+              "name": "Clean Energy Cert"
+            },
+            "value": "Clean Energy Program Advisor"
+          },
+          {
+            "descriptor": {
+              "code": "cert-women-welfare",
+              "name": "Women Welfare Cert"
+            },
+            "value": "Women's Welfare Scheme Specialist"
           }
         ]
       }
