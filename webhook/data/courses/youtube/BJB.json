@@ -1,5 +1,5 @@
 {
-  "id": "COURSE-BJB-PLI-001",
+  "id": "COURSE-BJB-PLI-001-VIDEO",
   "quantity": {
     "maximum": {
       "count": 1
@@ -93,7 +93,7 @@
             "code": "course-name",
             "name": "Course Name"
           },
-          "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          "value": "Bal Jeevan Bima (PLI) Enrollment Guide"
         }
       ],
       "display": true

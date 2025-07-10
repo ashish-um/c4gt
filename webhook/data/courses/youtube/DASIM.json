@@ -1,5 +1,5 @@
 {
-  "id": "COURSE-DASIM-001",
+  "id": "COURSE-DASIM-001-VIDEO",
   "quantity": {
     "maximum": {
       "count": 1
@@ -93,7 +93,7 @@
             "code": "course-name",
             "name": "Course Name"
           },
-          "value": "Atal Pension Yojana (APY) Enrollment Specialist"
+          "value": "Dr. Ambedkar Inter-Caste Marriage Scheme Guide"
         }
       ],
       "display": true

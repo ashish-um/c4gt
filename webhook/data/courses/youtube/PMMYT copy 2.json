@@ -1,17 +1,17 @@
 {
-  "id": "COURSE-PMMYT-001",
+  "id": "COURSE-PMMYT-002-ASSIGNMENT",
   "quantity": {
     "maximum": {
       "count": 1
     }
   },
   "descriptor": {
-    "name": "Pradhan Mantri Mudra Yojana (Tarun) Loan Guide",
-    "short_desc": "A course on securing business loans from ₹5 lakh to ₹10 lakh under the PMMY Tarun category for established enterprises.",
-    "long_desc": "<p><strong>Course Overview:</strong><br>This module covers the 'Tarun' category of the Pradhan Mantri Mudra Yojana (PMMY), the highest tier of loans for established businesses. Agents will learn how to guide successful entrepreneurs in securing significant funding for major business expansion or diversification.</p><ol><li><strong>Loan Details:</strong><br>Understand the specifics of the Tarun loan, which ranges from ₹5,00,001 to ₹10,00,000. These funds are intended for purchasing heavy machinery, acquiring property, or significant scaling of business operations.</li><li><strong>Eligibility and Documentation:</strong><br>Master the stringent eligibility criteria for established businesses. Learn about the comprehensive documentation required, including business registration, financial statements for previous years, a detailed project report, and KYC of the promoters.</li><li><strong>Application & Appraisal Process:</strong><br>Learn the formal application and credit appraisal process followed by lending institutions for Tarun loans. This includes understanding how banks assess the financial health and future viability of the business before sanctioning the loan.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Play a role in the growth story of successful small and medium enterprises.</li><li>Specialize in high-value business financing under a flagship government scheme.</li><li>Become a trusted financial consultant for established entrepreneurs looking to scale up.</li></ul>",
+    "name": "Pradhan Mantri Mudra Yojana (Tarun) Assignment",
+    "short_desc": "Assignment: Guide an entrepreneur through the PMMY Tarun loan application and document the process.",
+    "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Mudra Yojana (Tarun) by simulating or assisting an entrepreneur in applying for a Tarun loan. Document each step, from eligibility check to application submission and loan disbursement.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical entrepreneur through the Tarun loan application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of business loans for MSMEs and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMMY Tarun procedures.</li><li>Develop the ability to assist others in accessing business finance.</li><li>Prepare for real-world scenarios as a financial advisor or business consultant.</li></ul>",
     "images": [
       {
-        "url": "https://i.ytimg.com/vi/pv--bQeO87c/maxresdefault.jpg"
+        "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
       }
     ],
     "media": [
@@ -86,7 +86,7 @@
             "code": "course-type",
             "name": "Course Type"
           },
-          "value": "video"
+          "value": "assignment"
         },
         {
           "descriptor": {

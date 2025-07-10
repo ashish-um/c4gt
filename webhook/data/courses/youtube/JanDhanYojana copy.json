@@ -1,17 +1,17 @@
 {
-  "id": "COURSE-PMMYT-001",
+  "id": "COURSE-PMJDY-001-ASSIGNMENT",
   "quantity": {
     "maximum": {
       "count": 1
     }
   },
   "descriptor": {
-    "name": "Pradhan Mantri Mudra Yojana (Tarun) Loan Guide",
-    "short_desc": "A course on securing business loans from ₹5 lakh to ₹10 lakh under the PMMY Tarun category for established enterprises.",
-    "long_desc": "<p><strong>Course Overview:</strong><br>This module covers the 'Tarun' category of the Pradhan Mantri Mudra Yojana (PMMY), the highest tier of loans for established businesses. Agents will learn how to guide successful entrepreneurs in securing significant funding for major business expansion or diversification.</p><ol><li><strong>Loan Details:</strong><br>Understand the specifics of the Tarun loan, which ranges from ₹5,00,001 to ₹10,00,000. These funds are intended for purchasing heavy machinery, acquiring property, or significant scaling of business operations.</li><li><strong>Eligibility and Documentation:</strong><br>Master the stringent eligibility criteria for established businesses. Learn about the comprehensive documentation required, including business registration, financial statements for previous years, a detailed project report, and KYC of the promoters.</li><li><strong>Application & Appraisal Process:</strong><br>Learn the formal application and credit appraisal process followed by lending institutions for Tarun loans. This includes understanding how banks assess the financial health and future viability of the business before sanctioning the loan.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Play a role in the growth story of successful small and medium enterprises.</li><li>Specialize in high-value business financing under a flagship government scheme.</li><li>Become a trusted financial consultant for established entrepreneurs looking to scale up.</li></ul>",
+    "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Assignment",
+    "short_desc": "Assignment: Guide a citizen through PMJDY account opening and document the process and learnings.",
+    "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Pradhan Mantri Jan Dhan Yojana (PMJDY) by simulating or assisting a citizen in opening a PMJDY account. Document each step, from eligibility check to account activation and benefit awareness.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical beneficiary through the PMJDY account opening process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of financial inclusion and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of PMJDY procedures.</li><li>Develop the ability to assist others in accessing banking services.</li><li>Prepare for real-world scenarios as a financial advisor or community facilitator.</li></ul>",
     "images": [
       {
-        "url": "https://i.ytimg.com/vi/pv--bQeO87c/maxresdefault.jpg"
+        "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
       }
     ],
     "media": [
@@ -37,7 +37,7 @@
     "value": "0"
   },
   "category_ids": ["Central-Scheme", "Banking-Financial"],
-  "rating": "4.8",
+  "rating": "4.9",
   "rateable": true,
   "tags": [
     {
@@ -51,21 +51,21 @@
             "code": "learner-level",
             "name": "Learner Level"
           },
-          "value": "Advanced"
+          "value": "Beginner"
         },
         {
           "descriptor": {
             "code": "scheme-type",
             "name": "Scheme Type"
           },
-          "value": "Loan"
+          "value": "Banking"
         },
         {
           "descriptor": {
             "code": "target-audience",
             "name": "Target Audience"
           },
-          "value": "Entrepreneurs"
+          "value": "Citizens"
         },
         {
           "descriptor": {
@@ -79,21 +79,21 @@
             "code": "course-duration",
             "name": "Course Duration"
           },
-          "value": "P3H"
+          "value": "P2H"
         },
         {
           "descriptor": {
             "code": "course-type",
             "name": "Course Type"
           },
-          "value": "video"
+          "value": "assignment"
         },
         {
           "descriptor": {
             "code": "course-name",
             "name": "Course Name"
           },
-          "value": "Pradhan Mantri Mudra Yojana (Tarun) Loan Guide"
+          "value": "Pradhan Mantri Jan Dhan Yojana (PMJDY) Enrollment Guide"
         }
       ],
       "display": true
@@ -106,17 +106,17 @@
       "list": [
         {
           "descriptor": {
-            "code": "cert-sme-finance",
-            "name": "SME Finance Cert"
+            "code": "cert-financial-inclusion",
+            "name": "Financial Inclusion Cert"
           },
-          "value": "SME Finance Professional"
+          "value": "Financial Inclusion Specialist"
         },
         {
           "descriptor": {
-            "code": "cert-mudra-yojana",
-            "name": "Mudra Yojana Cert"
+            "code": "cert-pm-yojana",
+            "name": "PM Yojana Cert"
           },
-          "value": "Certified Mudra Yojana Consultant"
+          "value": "Pradhan Mantri Yojana Advisor"
         }
       ]
     }

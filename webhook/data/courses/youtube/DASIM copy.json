@@ -1,17 +1,17 @@
 {
-  "id": "COURSE-PMUY-001",
+  "id": "COURSE-DASIM-001-ASSIGNMENT",
   "quantity": {
     "maximum": {
       "count": 1
     }
   },
   "descriptor": {
-    "name": "Pradhan Mantri Ujjwala Yojana (PMUY) Enrollment Advisor",
-    "short_desc": "Learn to guide women from deprived households in applying for a deposit-free LPG connection under the PM Ujjwala Yojana.",
-    "long_desc": "<p><strong>Course Overview:</strong><br>This module offers a complete guide to the Pradhan Mantri Ujjwala Yojana (PMUY), a flagship scheme by the Ministry of Petroleum & Natural Gas. Agents will learn how to assist eligible women in obtaining a clean cooking fuel (LPG) connection, thereby promoting better health and empowering women.</p><ol><li><strong>Scheme Benefits:</strong><br>Understand the core benefit of a deposit-free LPG connection. This includes financial assistance of up to ₹1600 for a connection and a free first refill and stove (hot-plate).</li><li><strong>Eligibility Criteria:</strong><br>Master the eligibility requirements. The scheme is for adult women from poor households who do not have an existing LPG connection in their name or in the name of any family member.</li><li><strong>Application Process:</strong><br>Learn the online application process, which involves selecting an oil marketing company (Indane, Bharatgas, HP Gas) and submitting KYC details through the official portal.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li>Empower women from vulnerable households with access to clean cooking fuel.</li><li>Contribute to improving the health and well-being of families by reducing exposure to harmful smoke.</li><li>Specialize in a high-impact national welfare scheme.</li></ul>",
+    "name": "Dr. Ambedkar Inter-Caste Marriage Scheme Assignment",
+    "short_desc": "Assignment: Guide a couple through the Dr. Ambedkar Inter-Caste Marriage Scheme application and document the process.",
+    "long_desc": "<p><strong>Assignment Overview:</strong><br>This assignment requires you to apply your knowledge of the Dr. Ambedkar Inter-Caste Marriage Scheme by simulating or assisting a couple in applying for the scheme. Document each step, from eligibility check to application submission and benefit tracking.</p><ol><li><strong>Task:</strong><br>Guide a real or hypothetical couple through the application process, ensuring all requirements are met.</li><li><strong>Documentation:</strong><br>Record the steps, challenges, and solutions. Include forms or screenshots if possible.</li><li><strong>Reflection:</strong><br>Write a brief reflection on the importance of social integration schemes and what you learned from this assignment.</li></ol><p><strong>Why Complete This Assignment:</strong></p><ul><li>Reinforce your practical knowledge of the scheme's procedures.</li><li>Develop the ability to assist others in accessing social welfare schemes.</li><li>Prepare for real-world scenarios as a community facilitator or social worker.</li></ul>",
     "images": [
       {
-        "url": "https://i.ytimg.com/vi/q1KqAabMOTc/maxresdefault.jpg"
+        "url": "https://t3.ftcdn.net/jpg/03/09/59/80/360_F_309598037_FrfMLAfTQrstsVg5SZMaGH1Uef6s69EB.jpg"
       }
     ],
     "media": [
@@ -36,8 +36,8 @@
     "currency": "INR",
     "value": "0"
   },
-  "category_ids": ["Central-Scheme", "Health-Wellness"],
-  "rating": "4.8",
+  "category_ids": ["Central-Scheme", "Banking-Financial"],
+  "rating": "4.7",
   "rateable": true,
   "tags": [
     {
@@ -58,14 +58,14 @@
             "code": "scheme-type",
             "name": "Scheme Type"
           },
-          "value": "Welfare"
+          "value": "Incentive"
         },
         {
           "descriptor": {
             "code": "target-audience",
             "name": "Target Audience"
           },
-          "value": "Women"
+          "value": "Couples"
         },
         {
           "descriptor": {
@@ -86,14 +86,14 @@
             "code": "course-type",
             "name": "Course Type"
           },
-          "value": "video"
+          "value": "assignment"
         },
         {
           "descriptor": {
             "code": "course-name",
             "name": "Course Name"
           },
-          "value": "Pradhan Mantri Ujjwala Yojana (PMUY) Enrollment Advisor"
+          "value": "Dr. Ambedkar Inter-Caste Marriage Scheme Guide"
         }
       ],
       "display": true
@@ -106,17 +106,10 @@
       "list": [
         {
           "descriptor": {
-            "code": "cert-clean-energy",
-            "name": "Clean Energy Cert"
+            "code": "cert-social-welfare",
+            "name": "Social Welfare Cert"
           },
-          "value": "Clean Energy Program Advisor"
-        },
-        {
-          "descriptor": {
-            "code": "cert-women-welfare",
-            "name": "Women Welfare Cert"
-          },
-          "value": "Women's Welfare Scheme Specialist"
+          "value": "Social Welfare Program Specialist"
         }
       ]
     }
