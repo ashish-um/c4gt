@@ -52,7 +52,7 @@ const handleElasticSearch = async (query, searchType) => {
   try {
     const searchResponse = await client.search({
       index: INDEX_NAME,
-      body: { query: esQuery },
+      body: { query: esQuery, size: 100 },
     });
     matchedCourses = searchResponse.hits.hits.map((hit) => hit._source);
   } catch (error) {
