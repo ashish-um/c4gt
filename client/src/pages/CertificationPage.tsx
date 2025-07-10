@@ -1,11 +1,10 @@
 import React, { useEffect, useState, useMemo, useRef } from "react";
 import FilterDropdown from "../components/FilterDropdown";
-import CourseCard from "../components/CourseCard";
 import type { Course } from "../components/CourseCard";
 import { SearchIcon, MicIcon } from "../components/Icons";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
-// import data from "../assets/testdata.json";
+import data from "../assets/testdata.json";
 
 import {
   type CourseTypeProp,
@@ -16,6 +15,7 @@ import {
   LEVEL_LABELS,
   LEVEL_OPTIONS,
 } from "../components/MetaContent";
+import CompleteCourse from "../components/CompleteCourse";
 
 // Helper function to find a specific tag value from a course
 const getTagValue = (course: Course, code: string): string | undefined => {
@@ -42,7 +42,7 @@ const getCertifications = (
 const CertificationPage: React.FC<CourseTypeProp> = ({
   course_type = "certification",
 }: CourseTypeProp) => {
-  const [courses, setCourses] = useState<Course[]>([]);
+  const [courses, setCourses] = useState<Course[]>(data);
   const [searchParams, setSearchParams] = useSearchParams();
   const [search, setSearch] = React.useState(searchParams.get("q") || "");
 
@@ -176,6 +176,23 @@ const CertificationPage: React.FC<CourseTypeProp> = ({
   }, [filteredCourses]);
   // ==========================================================
 
+  // Function to generate a random Tailwind CSS border color from a predefined list
+  // Tailwind JIT/AOT compilation means dynamic class names like `border-${color}-${shade}` won't work
+  // unless they are explicitly present in the source code.
+  // We'll use a fixed set of classes and pick one randomly.
+  const getRandomBorderColor = () => {
+    const colors = [
+      "border-red-800",
+      "border-blue-800",
+      "border-green-800",
+      "border-yellow-800",
+      "border-purple-800",
+      "border-pink-800",
+      "border-indigo-800",
+    ];
+    return colors[Math.floor(Math.random() * colors.length)];
+  };
+
   // Handle form submit
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -281,7 +298,7 @@ const CertificationPage: React.FC<CourseTypeProp> = ({
               ([certificationName, coursesInCert]) => (
                 <div
                   key={certificationName}
-                  className="p-6 bg-white rounded-2xl border border-gray-200 shadow-md"
+                  className={`p-6 bg-white rounded-2xl border-2 ${getRandomBorderColor()} shadow-md`}
                 >
                   <div className="flex items-center gap-4 mb-6">
                     <div className="p-3 bg-indigo-100 rounded-xl">
@@ -313,29 +330,7 @@ const CertificationPage: React.FC<CourseTypeProp> = ({
 
                   <div className="space-y-10">
                     {/* Loop through each Course group within the Certification */}
-                    {Object.entries(coursesInCert).map(
-                      ([courseName, itemsInCourse]) => (
-                        <div key={courseName}>
-                          <h4 className="text-lg font-semibold text-gray-700 mb-4 pb-2 border-b border-gray-200">
-                            {courseName}
-                          </h4>
-                          <div className="flex overflow-x-auto space-x-6 pb-4">
-                            {itemsInCourse.map((courseItem) => (
-                              <div
-                                key={courseItem.id}
-                                className="flex-shrink-0 w-80 md:w-96"
-                              >
-                                <CourseCard
-                                  course={courseItem}
-                                  categoryLabels={CATEGORY_LABELS}
-                                  languageLabels={LANGUAGE_LABELS}
-                                />
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )
-                    )}
+                    <CompleteCourse groupedCourses={coursesInCert} />
                   </div>
                 </div>
               )

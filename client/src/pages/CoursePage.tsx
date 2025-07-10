@@ -1,11 +1,10 @@
 import React, { useEffect, useState, useMemo, useRef } from "react";
 import FilterDropdown from "../components/FilterDropdown";
-import CourseCard from "../components/CourseCard";
 import type { Course } from "../components/CourseCard";
 import { SearchIcon, MicIcon } from "../components/Icons";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
-// import data from "../assets/testdata.json";
+import data from "../assets/testdata.json";
 
 import {
   type CourseTypeProp,
@@ -16,11 +15,12 @@ import {
   LEVEL_LABELS,
   LEVEL_OPTIONS,
 } from "../components/MetaContent";
+import CompleteCourse from "../components/CompleteCourse";
 
 const CoursePage: React.FC<CourseTypeProp> = ({
   course_type = "course",
 }: CourseTypeProp) => {
-  const [courses, setCourses] = useState<Course[]>([]);
+  const [courses, setCourses] = useState<Course[]>(data);
   const [searchParams, setSearchParams] = useSearchParams();
   const [search, setSearch] = React.useState(searchParams.get("q") || "");
 
@@ -281,32 +281,7 @@ const CoursePage: React.FC<CourseTypeProp> = ({
         ) : (
           <div className="space-y-12 mt-8">
             {/* Loop through the grouped courses object */}
-            {Object.entries(groupedCourses).map(
-              ([courseName, coursesInGroup]) => (
-                <div key={courseName}>
-                  {/* Render the main course name as a title for the group */}
-                  <h3 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-gray-200">
-                    {courseName}
-                  </h3>
-
-                  <div className="flex overflow-x-auto space-x-6 pb-4">
-                    {coursesInGroup.map((courseItem) => (
-                      // Wrapper to control the size of the card in the flex row
-                      <div
-                        key={courseItem.id}
-                        className="flex-shrink-0 w-80 md:w-96"
-                      >
-                        <CourseCard
-                          course={courseItem}
-                          categoryLabels={CATEGORY_LABELS}
-                          languageLabels={LANGUAGE_LABELS}
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )
-            )}
+            <CompleteCourse groupedCourses={groupedCourses} />
           </div>
         )}
       </div>

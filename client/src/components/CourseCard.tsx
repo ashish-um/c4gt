@@ -67,13 +67,31 @@ function getCertifications(course: Course): string[] {
   return certs;
 }
 
-const CourseCard: React.FC<CourseCardProps> = ({
-  course,
-  categoryLabels = {},
-  languageLabels = {},
-}) => {
+const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
   const certifications = getCertifications(course);
   const [showTooltip, setShowTooltip] = useState(false);
+
+  // Only keep "Course Duration" and "Course Type" tags for chips
+  const tagChips =
+    course.tags?.flatMap((tag) =>
+      tag.list
+        .filter(
+          (item) =>
+            (item.descriptor.code === "course-duration" ||
+              item.descriptor.code === "course-type") &&
+            item.descriptor.name &&
+            item.value &&
+            (tag.display === undefined || tag.display)
+        )
+        .map((item, idx) => (
+          <span
+            key={item.descriptor.code + item.value + idx}
+            className="bg-teal-100 text-teal-800 text-xs font-medium px-2 py-1 rounded-full"
+          >
+            {item.descriptor.name}: {item.value}
+          </span>
+        ))
+    ) || [];
 
   return (
     <div className="bg-white rounded-xl overflow-hidden border border-gray-200 group transition hover:shadow-lg relative">
@@ -158,44 +176,10 @@ const CourseCard: React.FC<CourseCardProps> = ({
         <p className="text-sm text-gray-600 mt-2">
           {course.descriptor.short_desc}
         </p>
-        {/* Chips for category_ids and tags */}
+        {/* Chips for category_ids and only Course Duration/Type tags */}
         <div className="flex flex-wrap gap-2 mt-3">
-          {/* Category chips */}
-          {course.category_ids?.map((cat) => (
-            <span
-              key={cat}
-              className="bg-teal-100 text-teal-800 text-xs font-medium px-2 py-1 rounded-full"
-            >
-              {categoryLabels[cat] || cat}
-            </span>
-          ))}
-          {/* Tag chips */}
-          {course.tags?.map((tag) =>
-            tag.list
-              .filter(
-                (item) =>
-                  item.descriptor.name &&
-                  item.value &&
-                  (tag.display === undefined || tag.display)
-              )
-              .map((item, idx) => {
-                let value = item.value;
-                // Show language label if tag is lang-code
-                if (
-                  item.descriptor.code === "lang-code" &&
-                  languageLabels[value]
-                )
-                  value = languageLabels[value];
-                return (
-                  <span
-                    key={item.descriptor.code + item.value + idx}
-                    className="bg-gray-100 text-gray-700 text-xs font-medium px-2 py-1 rounded-full"
-                  >
-                    {item.descriptor.name}: {value}
-                  </span>
-                );
-              })
-          )}
+          {/* Only Course Duration and Course Type tag chips */}
+          {tagChips}
         </div>
       </div>
     </div>
