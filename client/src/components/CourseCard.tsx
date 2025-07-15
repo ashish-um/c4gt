@@ -94,7 +94,15 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
     ) || [];
 
   return (
-    <div className="bg-white rounded-xl overflow-hidden border border-gray-200 group transition hover:shadow-lg relative">
+    <a
+      href={
+        course.descriptor.media &&
+        course.descriptor.media[0] &&
+        course.descriptor.media[0].url
+      }
+      target="_blank"
+      className="bg-white rounded-xl overflow-hidden border border-gray-200 group transition hover:shadow-lg relative"
+    >
       {/* Certification badge */}
       {certifications.length > 0 && (
         <div
@@ -182,7 +190,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
           {tagChips}
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
