@@ -3,22 +3,25 @@ const axios = require("axios");
 const app = express();
 const cors = require("cors");
 
+// add dotenv to load environment variables
+require("dotenv").config();
+
 app.use(cors());
 app.use(express.json());
 
+// define target base URL from env with fallback
+const TARGET_URL = process.env.TARGET_URL;
+
 app.post("/", async (req, res) => {
-  //   console.log(req.body);
   console.log("recieved request");
 
   try {
     const response = await axios.post(
-      "http://20.187.151.177:5000/search",
+      // use env-based URL
+      `${TARGET_URL}/search`,
       req.body
     );
     console.log("Sending back response");
-    // response.data?.message?.catalog?.providers
-    // const data = await JSON.parse(response.data);
-    // console.log(response.data.responses[0].message.catalog.providers.items);
     res.json(response.data.responses[0].message.catalog.providers[0].items);
   } catch (error) {
     res

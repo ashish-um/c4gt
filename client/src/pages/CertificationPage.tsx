@@ -51,14 +51,19 @@ const CertificationPage: React.FC<CourseTypeProp> = ({
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [selectedLevel, setSelectedLevel] = useState<string>("");
 
+  // Read environment variables
+  const BAP_ID = import.meta.env.VITE_BAP_ID as string;
+  const BAP_URI = import.meta.env.VITE_BAP_URI as string;
+  const BPP_ID = import.meta.env.VITE_BPP_ID as string;
+
   const searchRequest = {
     context: {
       domain: "dsep:courses",
       action: "search",
       version: "1.1.0",
-      bap_id: "test-id",
-      bap_uri: "http://20.187.151.177:6002",
-      bpp_id: "bpp-ashish",
+      bap_id: BAP_ID,
+      bap_uri: BAP_URI,
+      bpp_id: BPP_ID,
       location: {
         city: { name: "Bangalore", code: "std:080" },
         country: { name: "India", code: "IND" },
